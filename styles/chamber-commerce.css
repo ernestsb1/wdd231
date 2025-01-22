@@ -1,0 +1,46 @@
+header {
+  background-color: lightblue;
+  height: 130px;
+padding-top: 7px;
+  color: #f70;
+
+}
+
+header h1 {
+  color: #1a73e8;
+  font-size: 1.9em;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+.nav {
+  background-color: darkblue;
+  height: 45px;
+  display: flex;
+  justify-content: right;
+  justify-content: space-around;
+  font-size: 1.1em;
+  color: white;
+
+}
+
+.nav:hover {
+  background-color: forestgreen;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+
+  color: white;
+  padding-top: 10px;
+
+}
+
+@media (max-width: 1281px) {
+  body {
+      background-color: white;
+  }
+}

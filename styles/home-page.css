@@ -4,217 +4,248 @@
     box-sizing: border-box;
     }
     
+    
+    
     body {
-    font-family: "Sansita", sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+        font-family: "Sansita", sans-serif;
     }
     
-    Header Styles
     header {
-    background-color: #36454f;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
+        background-color: #36454f;	
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border: 1px solid rgb(0 0 0 / 0.1);
+        font-family: 'Times New Roman', Times, serif;
+    
     }
     
-    header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    h1 {
+        color: #fff;
     }
     
-    Navigation Styles
-    nav {
-    background-color: #008000;
-    padding: 10px;
-    text-align: center;
-    }
-    
-    nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
-    
-    nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-    }
-    
-    nav a:hover {
-    background-color: #006400;
-    }
-    
-    Main Content Styles
+    header,
     main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+        margin: 0 auto;
     }
-    
-    .pics {
+    .pics{
     max-width: 200px;
     padding-right: 50px;
     }
     
+    h1 {
+        font-size: 2.5rem;
+    
+    }
+    
+    
+    nav {
+        background-color: #008000;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        font-family: "PT Sans", sans-serif;
+    
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        color: yellowgreen;
+    }
+    
+    .cus {
+        
+        display: flex;
+        justify-content: space-around;
+    
     .wor {
-    border-style: ridge;
-    width: 780px;
-    height: 650px;
-    margin-top: 20px;
-    border-radius: 0px;
-    margin-left: 35px;
+        border-style: ridge;
+        width: 780px;
+        height: 650px;
+        margin-top: 20px;
+        border-radius: 0px;
+        margin-left: 35px;
     }
+    h2 {
+        text-align: center;
+        background-color: #008000;
+        height: 70px;
+        font-size: 1.7rem;
+        color: #fff;
+        padding-top: 12px;
     
-    .city {
-    border-style: ridge;
-    width: 620px;
-    height: 650px;
-    margin-top: 20px;
-    border-radius: 0px;
-    margin-right: 35px;
-    }
-    
-    h2, h3 {
-    text-align: center;
-    background-color: #008000;
-    color: #fff;
-    padding: 10px;
-    margin-bottom: 10px;
+        
     }
     
     .dot::after {
-    content: '\2807';
-    font-size: 60px;
-    margin-left: 40px;
+        content: '\2807';
+        align-content: space-around;
+    
+        font-size: 60px;
+        margin-left: 40px;
+        line-height: 400px;
+        
+    }
+    .city {
+    
+        border-style: ridge;
+        width: 620px;
+        height: 650px;
+        margin-top: 20px;
+        border-radius: 0px;
+        margin-right: 35px;
+    
+        
+    }
+    h3 {
+        text-align: center;
+        background-color: #008000;
+        height: 70px;
+        font-size: 1.7rem;
+        color: #fff;
+        padding-top: 12px;
     }
     
     .abj {
-    width: 400px;
-    height: 400px;
-    margin-top: 75px;
-    margin-left: 90px;
+        width: 400px;
+        height: 400px;
+        margin-top: 75px;
+        margin-left: 90px;
     }
-    
     figure {
-    margin-left: 175px;
-    margin-top: 10px;
+        margin-left: 175px;
+        margin-top: 10px;
+    }
+    }
+    .active {
+        color: yellow;
     }
     
-    Card Styles
-    .card {
-    width: 300px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 30px;
-    font-size: 1.7rem;
-    margin-left: 20px;
+    h4 {
+        background-color: #008000;
+        height: 70px;
+        font-size: 1.7rem;
+        text-align: center;
+        color: #fff;
+        padding-top: 14px;
+        margin-top: 20px;
+    
     }
     
-    .card.completed {
-    background-color: #36454f;
-    }
-    
-    .card h5 {
-    display: flex;
-    justify-content: space-around;
-    align-content: space-around;
-    }
-    
-    .course-card h5 {
-    margin-top: 0;
-    }
-    
-    .course-card p {
-    margin-bottom: 10px;
-    }
-    
-    Filter and Button Styles
-    .filter-buttons {
-    margin-bottom: 20px;
+    #filters {
+        overflow: auto;
+        margin-bottom: 20px;
+        font-size: 1.2rem;
     }
     
     button {
-    background-color: #36454f;
-    color: #fff;
-    padding: 10px;
-    margin-left: 300px;
-    font-family: "PT Sans", sans-serif;
-    font-size: 1.2rem;
+        background-color: #36454f;
+        margin-top: 15px;
+        color: white;
+        padding: 10px;
+        margin-left: 300px;
+        font-family: "PT Sans", sans-serif;
+        font-size: 1.2rem;
+    
     }
     
-    button:hover {
-    background-color: darkmagenta;
+    button:hover{
+        background-color: darkmagenta;
     }
     
-    Footer Styles
+    
+    .card {
+        width: 300px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        padding: 30px;
+        font-size: 1.7rem;
+        margin-left: 20px;
+    }
+    
+    .card.completed {
+        background-color: #36454f; 
+    }
+    
+    #total-credits {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .card h5 {
+        display: flex;
+        justify-content: space-around;
+        align-content: space-around;
+        
+    }
+    
+      .course-card h5 {
+        margin-top: 0;
+      }
+    
+      .course-card p {
+        margin-bottom: 10px;
+      }
+    
+      .filter-buttons {
+        margin-bottom: 20px;
+      }
+    
+     
+    
+      #fit {
+        display: flex;
+        justify-content: center;
+        padding: 10px, 20px;
+      }
+    
+    #im {
+        max-width: 70px;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+    
+    
     footer {
-    background-color: #36454f;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+        background-color: #36454f;
+        text-align: center;
+        height: 90px;
     }
     
     footer p {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+        font-size: 1.50em;
+        color: white;
+        margin-top: 15px;
     }
     
     #lastModified {
-    font-size: 1rem;
-    color: wheat;
-    text-align: center;
+        margin-top: 15px;
+        color: wheat;
+        font-size: 1rem;
+        text-align: center;
     }
     
-    /* Mobile devices */
-    @media only screen and (max-width: 768px) {
-    body {
-    font-size: 14px;
-    }
-    header {
-    padding: 10px;
-    }
-    nav {
-    padding: 5px;
-    }
-    main {
-    padding: 10px;
-    }
-    .pics {
-    max-width: 150px;
-    }
-    .wor, .city {
-    width: 100%;
-    height: auto;
-    }
+    /* Larger Views ******************************/
+    @media (max-width: 1200px) {
+
+        body{
+            font-size: calc(16px);
+        }
+    
+    
+    
     }
     
-    /* Tablet devices */
-    @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    body {
-    font-size: 16px;
-    }
-    header {
-    padding: 15px;
-    }
-    nav {
-    padding: 10px;
-    }
-    main {
-    padding: 15px;
-    }
-    .pics {
-    max-width: 200px;
-    }
-    .wor, .city {
-    width: 80%;
-    height: auto;
-    }
-    }
-    
-    /* Desktop devices */
+   

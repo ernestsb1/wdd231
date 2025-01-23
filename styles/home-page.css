@@ -1,4 +1,4 @@
-- {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -171,7 +171,6 @@
     text-align: center;
     }
     
-    Responsive Design
     /* Mobile devices */
     @media only screen and (max-width: 768px) {
     body {
@@ -219,4 +218,3 @@
     }
     
     /* Desktop devices */
-    @media only

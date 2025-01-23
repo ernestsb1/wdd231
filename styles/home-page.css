@@ -148,15 +148,27 @@
     }
     
     button {
+        position: relative;
         background-color: #36454f;
-        margin-top: 15px;
-        color: white;
-        padding: 10px;
-        margin-left: 300px;
-        font-family: "PT Sans", sans-serif;
+
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
         font-size: 1.2rem;
-    
+        font-family: "PT Sans", sans-serif;
+        width: 110px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 260px;
+
+
+
     }
+    
+    
+    
+   
     
     button:hover{
         background-color: darkmagenta;
@@ -266,16 +278,19 @@
     padding: 10px;
     }
     h4 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     nav {
     padding: 5px;
     }
     .abj {
-        width: 250px;
+        width: 350px;
     }
     #filters {
         display: flex; 
+    }
+    button {
+        position: relative;
     }
     main {
     padding: 10px;
@@ -284,15 +299,15 @@
     max-width: 150px;
     }
     .wor {
-        width: 250px;
+        width: 350px;
     } 
     .card.completed {
-        background-color: whitesmoke; 
+        background-color: yellow; 
     }
-    .city {
-    width: 100%;
-    height: auto;
+    footer {
+        height: 90px;
     }
+    
     }
     
     /* Tablet devices */
@@ -312,10 +327,7 @@
     .pics {
     max-width: 200px;
     }
-    .wor, .city {
-    width: 80%;
-    height: auto;
-    }
+    
     }
     
     /* Desktop devices */

@@ -265,11 +265,17 @@
     header {
     padding: 10px;
     }
+    h4 {
+        font-size: 1rem;
+    }
     nav {
     padding: 5px;
     }
     .abj {
         width: 250px;
+    }
+    #filters {
+        display: flex; 
     }
     main {
     padding: 10px;
@@ -277,7 +283,13 @@
     .pics {
     max-width: 150px;
     }
-    .wor, .city {
+    .wor {
+        width: 250px;
+    } 
+    .card.completed {
+        background-color: whitesmoke; 
+    }
+    .city {
     width: 100%;
     height: auto;
     }

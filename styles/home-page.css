@@ -297,9 +297,9 @@
     .pics {
     max-width: 150px;
     }
-    .wor {
-        flex-direction: column;
-        align-items: center;
+    .cus {
+        display: block;
+        
     } 
     .card.completed {
         background-color: yellow; 
@@ -307,7 +307,9 @@
     footer {
         height: 90px;
     }
-    
+    #course-list {
+        display: block;
+    }
     }
     
     /* Tablet devices */

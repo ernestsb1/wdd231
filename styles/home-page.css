@@ -298,9 +298,15 @@
     }
     .cus {
         display: block;
-        align-items: center;
-        
+        align-items: center;   
     } 
+    .wor{
+        width: 250px;
+
+    }
+    .abj {
+        width: 250px;
+    }
     .card.completed {
         background-color: yellow; 
     }

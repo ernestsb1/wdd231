@@ -313,20 +313,39 @@
     .wor {
         width: 100%;
         height: auto;
-        margin: 20px 10px;
     }
 
     .city {
         width: 100%;
         height: auto;
-        margin: 20px 10px;
     }
 
     .abj {
         width: 100%;
         height: auto;
-        margin: 20px 0;
     }
+
+    h2,
+h3 {
+    text-align: center;
+    background-color: #008000;
+    height: 70px;
+    font-size: 1.7rem;
+    color: #fff;
+    padding-top: 12px;
+}
+
+.dot::after {
+    content: '\2807';
+    font-size: 60px;
+    margin: 0 auto;
+    display: block;
+}
+
+figcaption {
+    text-align: center;
+}
+
 
 
     }

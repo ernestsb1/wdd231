@@ -298,16 +298,9 @@
     }
     .cus {
         display: block;
-        align-items: center;   
     } 
-    .wor{
-        width: 350px;
-
-    }
-    .city {
-        width: 200px;
-        align-items: center;
-    }
+    
+   
     .card.completed {
         background-color: yellow; 
     }

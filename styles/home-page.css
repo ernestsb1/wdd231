@@ -304,11 +304,17 @@
     }
     .cus {
         display: block;
-        width: 100%;
 
          } 
 
-        
+     .abj {
+        width: 100%;
+
+     }  
+     
+     .wor {
+        width: 100%;
+     }
     
 
 
@@ -322,7 +328,7 @@
     #course-list {
         display: block;
     }
-    }
+    
     
     /* Tablet devices */
     @media only screen and (min-width: 769px) and (max-width: 1024px) {

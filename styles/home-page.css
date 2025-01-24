@@ -303,22 +303,17 @@
     max-width: 150px;
     }
     .cus {
-        display: block;
+        display: flex;
+        flex-direction: column;
 
          } 
 
-     .abj {
-        width: 100%;
-
-     }  
-     
-     .wor {
-        width: 100%;
+    
      }
     
 
 
-   }
+   
     .card.completed {
         background-color: yellow; 
     }

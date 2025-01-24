@@ -304,16 +304,11 @@
     }
     .cus {
         display: block;
+        width: 100%;
 
          } 
 
-         .wor {
-            width: 300px;
-         }
-
-         .city {
-            width: 300px;
-         }
+        
     
 
 

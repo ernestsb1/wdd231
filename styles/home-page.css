@@ -282,11 +282,17 @@
     h4 {
         font-size: 1.2rem;
     }
+    h2 {
+        font-size: 1.5rem;
+    }
     nav {
     padding: 5px;
     }
     
-   
+    foot {
+        height: 110px;
+
+    }
     button {
         position: relative;
     }
@@ -298,12 +304,16 @@
     }
     .cus {
         display: block;
-        width: 200px;
-        
-        
-    } 
-    
-   
+
+         } 
+    .wor {
+        width: 100px;
+    }
+   .city {
+        width: 100px;
+
+
+   }
     .card.completed {
         background-color: yellow; 
     }

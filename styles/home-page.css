@@ -325,8 +325,19 @@
         height: auto;
     }
 
-    h2,
+    h2 {
+        width: 100%;
+
+        text-align: center;
+        background-color: #008000;
+        height: 70px;
+        font-size: 1.7rem;
+        color: #fff;
+        padding-top: 12px;
+    }
 h3 {
+    width: 100%;
+
     text-align: center;
     background-color: #008000;
     height: 70px;

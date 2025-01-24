@@ -303,10 +303,17 @@
     max-width: 150px;
     }
     .cus {
-        display: flex;
-        flex-direction: column;
+        display: block;
 
          } 
+
+         .wor {
+            width: 600px;
+         }
+
+         .city {
+            width: 600px;
+         }
 
     
      }

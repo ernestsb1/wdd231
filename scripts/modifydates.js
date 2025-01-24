@@ -70,6 +70,7 @@ function displayCourses(filteredCourses) {
 
         courseList.appendChild(card);
         totalCreditsCount += course.credits;
+        
     });
 
     totalCredits.textContent = `Total Credits: ${totalCreditsCount}`;

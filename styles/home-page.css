@@ -141,34 +141,38 @@
     
     }
     
-    #filters {
-        overflow: auto;
-        margin-bottom: 20px;
-        font-size: 1.2rem;
+    #button {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        
+
     }
+   
+    
     
     button {
-        position: relative;
         background-color: #36454f;
-
         color: #fff;
-        text-align: center;
-        padding: 15px;
-        text-decoration: none;
-        font-size: 1.2rem;
-        font-family: "PT Sans", sans-serif;
-        width: 110px;
-        cursor: pointer;
+        padding: 10px 20px;
         margin-top: 20px;
-        margin-left: 260px;
-
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        width: 170px;
 
 
     }
     
-    
-    
-   
+    #course-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        grid-column-gap: 0px ;
+        justify-content: center;
+        justify-items: center;
+
+        
+    }
     
     button:hover{
         background-color: darkmagenta;
@@ -211,9 +215,6 @@
         margin-bottom: 10px;
       }
     
-      .filter-buttons {
-        margin-bottom: 20px;
-      }
     
      
     
@@ -286,9 +287,7 @@
     .abj {
         width: 350px;
     }
-    #filters {
-        display: flex; 
-    }
+   
     button {
         position: relative;
     }
@@ -299,7 +298,8 @@
     max-width: 150px;
     }
     .wor {
-        width: 350px;
+        flex-direction: column;
+        align-items: center;
     } 
     .card.completed {
         background-color: yellow; 
@@ -330,4 +330,4 @@
     
     }
     
-    /* Desktop devices */
+    

@@ -301,11 +301,12 @@
         align-items: center;   
     } 
     .wor{
-        width: 250px;
+        width: 350px;
 
     }
     .abj {
-        width: 250px;
+        width: 200px;
+        align-items: center;
     }
     .card.completed {
         background-color: yellow; 

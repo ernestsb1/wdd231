@@ -66,6 +66,7 @@
         
         display: flex;
         justify-content: space-around;
+        background-color: #fff;
     
     .wor {
         border-style: ridge;
@@ -297,6 +298,7 @@
     }
     .cus {
         display: block;
+        align-items: center;
         
     } 
     .card.completed {

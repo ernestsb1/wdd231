@@ -307,8 +307,7 @@
     max-width: 150px;
     }
     .cus {
-        flex-direction: row;
-        justify-content: space-around;
+        display: block;
     }
 
     .wor {

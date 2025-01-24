@@ -347,6 +347,8 @@ h3 {
 }
 
 .dot::after {
+    width: 100%;
+
     content: '\2807';
     font-size: 60px;
     margin: 0 auto;
@@ -359,7 +361,7 @@ figcaption {
 
 
 
-    }
+    
     
      
     
@@ -376,7 +378,7 @@ figcaption {
         display: block;
     }
     
-    
+}
     /* Tablet devices */
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
     body {

@@ -325,13 +325,9 @@
     }
 
     .abj {
-        width: 50%;
+        width: 100%;
         align-content: center;
-        height: auto;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        
     }
 
     h2 {
@@ -378,6 +374,7 @@ figcaption {
     }
     #course-list {
         display: block;
+        gap: 10px;
     }
 
 

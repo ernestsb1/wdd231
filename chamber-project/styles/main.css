@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  background-color: #36454f;
+
+
+  }
+
+ header .favicon {
+    width: 190px;
+    height: 120px; 
+    object-fit: cover;
+    padding-left: 50px;
+
+}
+.favicon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header {
+    background-color: #36454f;
+
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+}
+
+
+  
+  header h1 {
+    color:#fff ;
+    font-size: 2.1em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 0px;
+    padding-left: 20px;
+  }
+
+ 
+  
+  
+  .member img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .member {
+    text-align: center;
+  }
+
+img {
+  max-width: 250px;
+  max-height:150px;
+  text-align: center;
+}
+
+  .nav {
+    background-color: darkblue;
+    height: 45px;
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    font-size: 1.1em;
+    color: white;
+  
+  }
+  
+  .nav :hover {
+    background-color: rgba(255, 255, 255, 0.5);
+
+  }
+
+  
+
+
+  .nav:hover {
+    color: forestgreen;
+  }
+  
+  .nav a {
+    display: block;
+    text-decoration: none;
+  
+    color: white;
+    padding-top: 10px;
+  
+  }
+  
+  
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+main {
+    background-image: url("https://media.gettyimages.com/id/1208488008/photo/a-view-of-the-chamber-of-commerce-building-in-naples.jpg?s=1024x1024&w=gi&k=20&c=lD1VhlrYBEnDYSA499G_PBhv7EVI5zLs9g4LH89eFik=")
+
+}
+
+#directory {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#toggle-view {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#member-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.member {
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+.member img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bed;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #36454f;
+
+  }
+  .footer-c {
+    padding-left: 50px;
+  }
+  
+.footer-messages {
+    padding-right: 50px;
+}
+
+.social {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1.30em;
+    color: white;
+    padding-top: 20px;
+}
+
+#lastModified {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.nav-toggle {
+    display: none;
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+  
+
+
+@media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .nav a {
+      flex-direction: column;
+    }
+    
+    .nav a {
+      margin-right: 0;
+    }
+    
+    .nav-toggle {
+      display: block;
+    }
+  }
+  

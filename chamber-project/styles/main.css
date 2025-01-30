@@ -214,52 +214,39 @@ footer p {
   
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     
     h1 {
-        width: 100%;
-        height: auto;
-
-        text-align: center;
-        
+        width: 50%;
+        height: auto;        
         font-size: 1.rem;
         
     }
     .favicon {
-        width: 100%;
+        width: 50%;
         height: auto;
+        padding-left: -20px;
     }
     
     #directory {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
-        max-width: 100%;
 
       
     }
    
-    .nav-toggle {
-        display: block;
-      }
+    
       
       .nav-toggle span {
         display: block;
-        width: 80px;
-        height: 200px;
+      
         background-color: #333;
         margin-bottom: 5px;
         align-items: right;
       }
       
-      .nav {
-        display: none;
-        top: 100%;
-        left: 0;
-        background-color: #333;
-        padding: 20px;
-        border: 1px solid #444;
-      }
+      
       
       
       
@@ -288,15 +275,5 @@ body {
 
     }
    
-
-
-    h1 {
-        width: 100%;
-
-        text-align: center;
-        
-        font-size: 1.7rem;
-        
-    }
 
 

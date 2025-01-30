@@ -140,7 +140,7 @@ main {
 }
 
 .member img {
-    width: 100%;
+    width: 200px;
     height: 150px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
@@ -216,17 +216,9 @@ footer p {
 
 @media screen and (max-width: 768px) {
     
-    h1 {
-        width: 50%;
-        height: auto;        
-        font-size: 1.rem;
-        
-    }
-    .favicon {
-        width: 50%;
-        height: auto;
-        padding-left: -20px;
-    }
+  header{
+    display: block;
+  }
     
     #directory {
         display: grid;
@@ -238,12 +230,57 @@ footer p {
    
     
       
+    .nav-toggle {
+        display: none;
+        background-color: #333;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        position: relative;
+      }
+      
       .nav-toggle span {
         display: block;
-      
-        background-color: #333;
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
         margin-bottom: 5px;
-        align-items: right;
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      @media (max-width: 768px) {
+        .nav-toggle {
+          display: block;
+        }
+        
+        .nav {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background-color: #333;
+          padding: 20px;
+          border: 1px solid #444;
+        }
+        
+        .nav-toggle:focus + .nav {
+          display: block;
+        }
+        
+        .nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        
+        .nav li {
+          margin-bottom: 10px;
+        }
+        
+        .nav a {
+          color: #fff;
+          text-decoration: none;
+        }
       }
       
       

@@ -49,6 +49,9 @@ listButton.addEventListener('click', () => {
 
 loadMembers();
 
+
+
+
 const footerCopyrightYear = document.getElementById('footerCopyrightYear');
 const lastModifiedDate = document.getElementById('lastModifiedDate');
 

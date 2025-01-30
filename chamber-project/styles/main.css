@@ -225,6 +225,9 @@ footer p {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
+        max-width: 768px;
+        margin: 0 auto;
+
       
     }
    
@@ -232,9 +235,16 @@ footer p {
         display: block;
       }
       
+      .nav-toggle span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 5px;
+      }
+      
       .nav {
         display: none;
-        position: absolute;
         top: 100%;
         left: 0;
         background-color: #333;

@@ -192,25 +192,9 @@ footer p {
     text-align: center;
 }
 
-.nav-toggle {
-    display: none;
-    background-color: #333;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    position: relative;
 
-  }
+
   
-  .nav-toggle span {
-    display: block;
-    width: 20px;
-    height: 2px;
-    background-color: #fff;
-    margin-bottom: 5px;
-    transition: transform 0.3s ease-in-out;
-
-  }
   
 
 
@@ -222,10 +206,17 @@ footer p {
     
     #directory {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-gap: 10px;
+        width: 100%;
 
-      
+     #members {
+        width: 100%;
+     }
+    #member-list {
+        width: 100%;
+    }
+
     }
     .nav-toggle {
         display: block;
@@ -241,30 +232,27 @@ footer p {
         border: 1px solid #444;
       }
       
-      .nav-toggle:focus + .nav-menu {
+      .nav-toggle {
         display: block;
       }
-    }
+      
+      .nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #333;
+        padding: 20px;
+        border: 1px solid #444;
+      }
+      
+      .nav-toggle:focus + .nav {
+        display: block;
+      }
+    
     
         
-        .nav-toggle:focus + .nav {
-          display: block;
-        }
-        
-        .nav ul {
-          list-style: none;
-          margin: 0;
-          padding: 0;
-        }
-        
-        .nav li {
-          margin-bottom: 10px;
-        }
-        
-        .nav a {
-          color: #fff;
-          text-decoration: none;
-        }
+      
       
       
       
@@ -312,4 +300,4 @@ body {
     }
    
 
-
+}

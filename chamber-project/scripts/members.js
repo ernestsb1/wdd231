@@ -49,7 +49,14 @@ listButton.addEventListener('click', () => {
 
 loadMembers();
 
+document.addEventListener("DOMContentLoaded", function() {
+  const menuButton = document.querySelector(".nav-toggle");
+  const navMenu = document.querySelector(".nav-menu");
 
+  menuButton.addEventListener("click", function() {
+    navMenu.classList.toggle("show-menu");
+  });
+});
 
 
 const footerCopyrightYear = document.getElementById('footerCopyrightYear');

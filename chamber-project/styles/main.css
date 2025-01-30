@@ -254,11 +254,8 @@ footer p {
   }
     
     #directory {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap: 10px;
-        width: 100%;
-
+        display: flex;
+       flex: 1 0 100%;
     }
       
       
@@ -272,7 +269,7 @@ footer p {
         width: 120px;
         height: 80px ;
         object-fit: cover;
-        padding-left: 10px;
+        padding-left: 20px;
     
     }
     .favicon {

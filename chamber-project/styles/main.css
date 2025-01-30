@@ -227,41 +227,25 @@ footer p {
 
       
     }
-   
-    
-      
     .nav-toggle {
-        display: none;
-        background-color: #333;
-        border: none;
-        padding: 10px;
-        cursor: pointer;
-        position: relative;
-      }
-      
-      .nav-toggle span {
         display: block;
-        width: 20px;
-        height: 2px;
-        background-color: #fff;
-        margin-bottom: 5px;
-        transition: transform 0.3s ease-in-out;
       }
       
-      @media (max-width: 768px) {
-        .nav-toggle {
-          display: block;
-        }
-        
-        .nav {
-          display: none;
-          position: absolute;
-          top: 100%;
-          left: 0;
-          background-color: #333;
-          padding: 20px;
-          border: 1px solid #444;
-        }
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #333;
+        padding: 20px;
+        border: 1px solid #444;
+      }
+      
+      .nav-toggle:focus + .nav-menu {
+        display: block;
+      }
+    }
+    
         
         .nav-toggle:focus + .nav {
           display: block;
@@ -281,16 +265,31 @@ footer p {
           color: #fff;
           text-decoration: none;
         }
+      
+      
+      
+      main{
+        width: 100%;
+        height: auto
       }
       
       
-      
-      
-      
+      .favicon {
+        width: 120px;
+        height: 80px ;
+        object-fit: cover;
+        padding-left: 10px;
     
+    }
+    .favicon {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     
-    
-  }
+    h1{
+        font-size: 70px;
+    }
+  
   footer p {
     font-size: 1.rem;
     

@@ -40,13 +40,40 @@ header {
     font-size: 2.1em;
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 0px;
-    text-align: center;
-    padding-bottom: 20px
+    padding-bottom: 10px
   }
 
+ .nav-menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+ }
+  
+  nav {
+    background-color: #FF9800;
+    height: 70px;
+    margin-top: -15px;
+  }
+  nav a {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  .nav-menu {
+    padding-top: 15px;
+  }
+
+  .nav-toggle {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 360px;
+    bottom: 40px;
+    z-index: 1;
+
+  }
+  
  
-  
-  
   .member img {
     display: block;
     margin: 0 auto;
@@ -64,31 +91,10 @@ img {
 
 
   
-.nav-menu {
-    display: flex;
-    justify-content: space-between;
-  padding: 1rem;
-  list-style: none;
-  justify-content: center;
 
-
-  }
-  
-  .nav-menu li {
-    margin-right: 1rem;
-  }
-  
-  .nav-menu a {
-    text-decoration: none;
-    color: #ddd;
-  }
   
   .nav-toggle {
     display: none;
-  }
- .nav:hover {
-    background-color:  #F7DC6F;
-
   }
   
 

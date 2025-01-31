@@ -262,8 +262,10 @@ footer p {
   }
     
     #directory {
-        display: flex;
-       flex: 1 0 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        
     }
       
       

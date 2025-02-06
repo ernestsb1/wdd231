@@ -342,13 +342,11 @@ footer p {
     main {
         width: 100%;
     }
-    .hero {
-        height: 50vh;
-    }
+   
 
-    .hero-content p {
-        font-size: 20px;
-    }
+   #hero-img {
+    width: 100%;
+   }
 
     .events {
         display: block;
@@ -356,10 +354,31 @@ footer p {
     .event-card {
         display: block;
     }
+    .fles {
+        display: block;
+    }
     #spotlights-container {
         display: block;
         width: 100%;
     }
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-content h2 {
+        font-size: 1.01rem;
+        margin-bottom: 1rem;
+      }
+      
+      .hero-content .btn {
+        display: inline-block;
+        background-color: #0077b6;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        margin-top: 1rem;
+      }
     nav {
         display: none;
       }

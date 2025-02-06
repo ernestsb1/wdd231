@@ -1,0 +1,450 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  background-color: #36454f;
+  padding: 1rem;
+
+
+
+  }
+
+ header .favicon {
+    width: 190px;
+    height: 120px; 
+    object-fit: cover;
+    padding-left: 50px;
+
+}
+.favicon {
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+.header {
+    background-color: #36454f;
+
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+}
+
+  
+  header h1 {
+    color:#fff ;
+    font-size: 2.1em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 0px;
+    padding-bottom: 10px
+  }
+
+ .nav-menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+
+ }
+  
+  nav {
+    background-color: #FF9800;
+    height: 70px;
+    margin-top: -15px;
+
+  }
+  nav a {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+
+  .nav-menu {
+    padding-top: 15px;
+  }
+
+  .nav-toggle {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 360px;
+    bottom: 40px;
+    z-index: 1;
+
+  }
+  
+ 
+  
+  .nav-toggle {
+    display: none;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .hero {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: #0077b6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content .btn {
+    display: inline-block;
+    background-color: #0077b6;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+  }
+  
+  h2 {
+    background-color: #36454f;
+    color: #fff;
+    text-align: center;
+  }
+
+  
+  
+  .events  {
+    display: grid;
+  grid-template-columns: 50% 25% 25%;
+  gap: 10px;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+
+  .event-card{
+    width: 100%;
+    height: 150px;
+
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  
+  #weather-icon {
+    width: 90px;
+  }
+  .weather p {
+    text-align: center;
+    margin-top: -10px;
+  }
+  
+  .current-weather {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  
+  
+  h3 {
+    font-size: 1.7rem;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0077b6;
+  }
+ 
+  
+  .weather-forecast {
+    text-align: center;
+  }
+  
+  .spotlight {
+    width: 1200px;
+  }
+  
+  #spotlights-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  align-items: center;
+
+  }
+
+ img {
+  width: 100%;
+  height:auto;
+  text-align: center;
+}
+  
+    
+  
+ 
+
+
+
+
+
+  
+  
+
+  
+  /* Footer styles */
+  footer {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+
+
+
+
+
+
+
+
+#directory {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#toggle-view {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#member-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bed;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #36454f;
+
+  }
+  .footer-c {
+    padding-left: 50px;
+  }
+  
+.footer-messages {
+    padding-right: 50px;
+}
+
+.social {
+    display: flex;
+    width: 70px;
+    height: 40px;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1.30em;
+    color: white;
+    padding-top: 20px;
+}
+
+#lastModified {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+
+
+.spotlight {
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+ 
+  
+}
+
+@media screen and (max-width: 768px) {
+
+    main {
+        flex-direction: column;
+    }
+    .hero {
+        height: 50vh;
+    }
+
+
+
+
+    nav {
+        display: none;
+      }
+    
+      .nav-toggle {
+        display: block;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+    
+      .nav-toggle:before {
+        content: "Menu";
+      }
+    
+      .nav-toggle.open:before {
+        content: "Close";
+      }
+    
+      .nav-menu {
+        display: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        background-color: #333;
+        color: #fff;
+        text-decoration: n;
+      }
+    
+      .nav-menu.open {
+        display: block;
+      }
+    
+      .nav-menu li {
+        display: block;
+        padding: 10px;
+      }
+    
+      .nav-menu li a {
+        color: #fff;
+        text-decoration: none;
+      }
+    
+    
+    
+  header{
+    display: block;
+  }
+    
+    #directory {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        
+    }
+      
+      
+      
+      .favicon {
+        width: 120px;
+        height: 80px ;
+        object-fit: cover;
+        padding-left: 20px;
+    
+    }
+    .favicon {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    h1{
+        font-size: 70px;
+    }
+  
+  footer p {
+    font-size: 1.rem;
+    
+}
+
+#lastModified {
+    font-size: 1rem;
+}
+  
+body {
+    font-size: 14px;
+    }
+   
+    
+   
+    
+    foot {
+        height: 110px;
+
+    }
+   
+
+}

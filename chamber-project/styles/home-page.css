@@ -101,7 +101,7 @@ header {
     object-fit: cover;
   }
   
-  .hero-content {
+  ontent.hero-c {
     position: absolute;
     top: 70%;
     left: 75%;
@@ -346,9 +346,16 @@ footer p {
         height: 50vh;
     }
 
+    .hero-content {
+        font-size: 20px;
+    }
 
-
-
+    .events {
+        display: block;
+    }
+    #spotlights-container {
+        display: block;
+    }
     nav {
         display: none;
       }

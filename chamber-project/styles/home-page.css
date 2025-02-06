@@ -325,14 +325,25 @@ footer p {
     text-align: center;
    }
 
-
-
-   .hero-content {
+   .hero {
+    height: auto;
+  }
+  .hero-img {
+    position: relative;
+  }
+  .hero-content {
     position: static;
     transform: none;
     text-align: center;
     margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
   }
+
+
+
+  
   
   /* Events Styles */
   .events {
@@ -348,6 +359,9 @@ footer p {
   }
   .spotlight {
     margin-bottom: 20px;
+  }
+  .spotlight img {
+    width: 50%;
   }
 
 

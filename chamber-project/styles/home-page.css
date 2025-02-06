@@ -340,12 +340,19 @@ footer p {
     }
     #spotlights-container {
         display: block;
-        width: 100%;
-    }
+      }
+      .spotlight {
+        margin-bottom: 20px;
+      }
+      .spotlight img {
+        height: 200px;
+      }
+    
+    
    
 
     .hero-content {
-        top: 30%;
+        top: 40%;
         right: 10px;
         max-width: 200px;
       }

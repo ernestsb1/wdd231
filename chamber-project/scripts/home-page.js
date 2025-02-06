@@ -86,7 +86,7 @@ fetch('data/members.json')
     const spotlightsHtml = randomMembers.map(member => {
       return `
         <div class="spotlight">
-          <h3>${member.name}</h3>
+          <h5>${member.name}</53>
           <img src="${member.image}" alt="${member.name}">
           <p>Phone: ${member.phone}</p>
           <p>Address: ${member.address}</p>

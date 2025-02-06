@@ -332,9 +332,21 @@ footer p {
    #hero-img {
     width: 100%;
    }
-
+   h3 {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+   }
+.event-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center;
+}
     .events {
         display: block;
+        margin-bottom: 20px;
     }
     
     #spotlights-container {
@@ -385,7 +397,7 @@ footer p {
     position: absolute;
     top: 75%;
     right: 40px;
-    transform: translateY(-750%);
+    transform: translateY(-75%);
     color: #fff;
     text-align: right;
   }
@@ -412,12 +424,12 @@ footer p {
   
   .weather {
     display: block;
-    padding-top: 50px;
-    margin-top: 50px;
+    padding-top: 70px;
+    margin-top: 70px;
   }
     
   #weather-icon {
-    width: 50px;
+    width: 70px;
   }
   .weather p {
     text-align: center;
@@ -510,9 +522,11 @@ footer p {
     }
     
     h1{
-        font-size: 70px;
+        font-size: 60px;
+        text-align: center;
     }
-    .social {
+    .social img{
+      width: 40px;
       align-items: center;
     }
   

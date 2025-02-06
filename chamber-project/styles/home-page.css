@@ -320,6 +320,10 @@ footer p {
 
 @media screen and (max-width: 768px) {
 
+  main {
+    width: 100%;
+    height: auto;
+  }
    h5 {
     font-size: 1rem;
     text-align: center;
@@ -332,18 +336,13 @@ footer p {
     .events {
         display: block;
     }
-    .event-card {
-        display: block;
-    }
-    .fles {
-        display: block;
-    }
+    
     #spotlights-container {
         display: block;
       }
       
   .spotlight {
-    width: 40%;
+    width: 100%;
   }
   .spotlight p {
     margin-left: 10px;
@@ -384,8 +383,8 @@ footer p {
   }
   .hero-content {
     position: absolute;
-    top: 50%;
-    right: 20px;
+    top: 75%;
+    right: 40px;
     transform: translateY(-30%);
     color: #fff;
     text-align: right;
@@ -411,6 +410,11 @@ footer p {
     margin-top: 10px;
   }
   
+  .weather {
+    display: block;
+    padding-top: 50px;
+    margin-top: 50px;
+  }
     
   #weather-icon {
     width: 50px;
@@ -420,8 +424,7 @@ footer p {
     margin-top: -10px;
   }
   
-  .current-weather {
-    display: block;
+  
     align-items: center;
   }
 
@@ -526,7 +529,9 @@ body {
     font-size: 14px;
     }
    
-    
+   .social {
+    align-items: center;
+   } 
    
     
     foot {
@@ -535,4 +540,4 @@ body {
     }
    
 
-}
+  }

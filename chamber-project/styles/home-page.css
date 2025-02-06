@@ -340,21 +340,25 @@ footer p {
 @media screen and (max-width: 768px) {
 
     main {
-        flex-direction: column;
+        width: 100%;
     }
     .hero {
         height: 50vh;
     }
 
-    .hero-content {
+    .hero-content p {
         font-size: 20px;
     }
 
     .events {
         display: block;
     }
+    .event-card {
+        display: block;
+    }
     #spotlights-container {
         display: block;
+        width: 100%;
     }
     nav {
         display: none;

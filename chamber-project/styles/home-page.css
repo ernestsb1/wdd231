@@ -385,7 +385,7 @@ footer p {
     position: absolute;
     top: 75%;
     right: 40px;
-    transform: translateY(-30%);
+    transform: translateY(-750%);
     color: #fff;
     text-align: right;
   }
@@ -423,10 +423,7 @@ footer p {
     text-align: center;
     margin-top: -10px;
   }
-  
-  
-    align-items: center;
-  }
+
 
   
   
@@ -514,6 +511,9 @@ footer p {
     
     h1{
         font-size: 70px;
+    }
+    .social {
+      align-items: center;
     }
   
   footer p {

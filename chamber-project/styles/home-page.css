@@ -377,12 +377,12 @@ h2 {
  
   #hero-img {
     width: 100%;
-    height: auto;
+    height: 600px;
   } 
   .hero-content {
     position: relative;
-    top: -90%;
-    left: 70%;
+    top: -130%;
+    left: 90%;
     transform: translate(-50%, -50%);
     text-align: right;
     color: #fff;
@@ -478,7 +478,11 @@ h2 {
     font-size: 1rem;
   }
     
-   
+   .h3 {
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 10px;
+   }
       
       
       
@@ -514,9 +518,13 @@ body {
     
    footer p {
     font-size: 1.rem;
+    text-align: center;
     
 }
 
+.footer-container {
+  width: 100%;
+}
 #lastModified {
     font-size: 1rem;
 }

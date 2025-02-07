@@ -377,15 +377,16 @@ h2 {
   }
     
     
-  .hero img {
-    width: 100%; /* add this line */
+  
+  
+  .hero {
+    position: relative;
   }
-  
-  
-  .hero-content {
-    width: 40%;
-    margin-right: 20px;
-    text-align: right;
+  #hero-img {
+    display: block;
+    height: 300px; /* adjust the height as needed */
+    background-size: cover;
+    background-position: center;
   }
   .hero-content {
     position: absolute;
@@ -394,27 +395,9 @@ h2 {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+    display: block;
   }
 
-
-  .hero-content h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  .hero-content p {
-    font-size: 15px;
-    margin-bottom: 20px;
-    color: #0077b6;
-  }
-  
-  .hero-content .btn {
-    background-color: #0077b6;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 2px;
-    margin-top: -170px;
-  }
   
   .weather {
     padding-top: 180px;
@@ -524,28 +507,24 @@ h2 {
         font-size: 60px;
         text-align: center;
     }
-    .social img{
-      width: 40px;
-      align-items: center;
-    }
-  
-    footer {
-      text-align: center;
-    }
+    
     .footer-container {
-      display: block;
-      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       padding: 20px;
     }
     .footer-c, .social, .footer-messages {
-      display: block;
-      margin: 0 auto;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
     }
     .social img {
-      display: inline-block;
       margin: 0 10px;
     }
+  
+    
   
   
 body {

@@ -383,7 +383,7 @@ h2 {
     position: relative;
     top: -130%;
     left: 90%;
-    transform: translate(-50%, -50%);
+    transform: translate(-130%, -130%);
     text-align: right;
     color: #fff;
     display: block;
@@ -523,6 +523,7 @@ body {
 }
 
 .footer-container {
+  display: flex;
   width: 100%;
 }
 #lastModified {

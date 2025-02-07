@@ -384,7 +384,7 @@ h2 {
   }
   #hero-img {
     display: block;
-    height: 300px; /* adjust the height as needed */
+    height: 400px;
     background-size: cover;
     background-position: center;
   }

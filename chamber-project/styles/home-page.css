@@ -379,21 +379,17 @@ h2 {
     
   
   
-  .hero {
-    position: relative;
-  }
+ 
   #hero-img {
-    display: block;
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-  }
+    width: 100%;
+    height: auto;
+   
   .hero-content {
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: right;
     color: #fff;
     display: block;
   }
@@ -510,13 +506,13 @@ h2 {
     
     .footer-container {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       padding: 20px;
     }
     .footer-c, .social, .footer-messages {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       margin-bottom: 20px;
     }

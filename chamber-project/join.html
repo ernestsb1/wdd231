@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Join Chamber of Commerce</title>
+        <meta name="description" content="Join of Chamber of Commerce members">
+        <meta name="author" content="Ernest Ohwojeheri>
+        <link rel="icon" href="images/favicon">
+        <meta property="og:title" content="Join Chamber of Commerce ">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="images/member-images/image.jpg">
+        <meta property="og:url" content="https://ernestsb1.github.io/wdd231/chamber/join.html">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/home-page.css">
+        <script src="scripts/join.js" defer></script>
+        <link rel="icon" href="favicon" type="image/favicon">
+
+
+
+
+    </head>
+    <body>
+    
+        <header>
+        
+            <img class="favicon" src="images/favicon.png" alt="looking good of myself">
+        </div>
+            <h1>Welcome to Chamber of Commerce</h1>
+        
+        </header> 
+        
+        
+        
+        <nav>
+          <ul class="nav-menu">
+              <li><a href="index.html" target="_blank">Home</a></li>
+              <li><a href="directory.html" target="_blank">Directory</a></li>
+              <li><a href="business-directory.html" target="_blank">Business Directory</a></li>
+              <li><a href="join.html" target="_blank">Join</a></li>
+              <li><a href="discover.html" target="_blank">Discover</a></li>
+              <li><a href="community.html" target="_blank">Community</a></li>
+              <li><a href="podcast.html" target="_blank">Podcast</a></li>
+              <li><a href="events.html" target="_blank">Events</a></li>
+              <li><a href="shop.html" target="_blank">Shop</a></li>
+              <li><a href="about.html" target="_blank">About</a></li>
+          </ul>
+      </nav>
+      
+                
+            
+        
+              <button class="nav-toggle">Menu</button>
+              
+        </nav>
+    
+    </button>
+
+
+
+    <main class="both-container">
+        <section class="join-form">
+          <h3>Membership Application Form</h3>
+          <form method="get" action="thank-you.html">
+            <label for="first-name">
+              <span>First Name:</span><br>
+              <input type="text" id="first-name" name="first-name" required autocomplete="given-name" title="First Name">
+            </label>
+    <br>
+    <br>
+            <label for="last-name">
+              <span>Last Name:</span><br>
+              <input type="text" id="last-name" name="last-name" required autocomplete="family-name" title="Last Name">
+            </label>
+            <br>
+            <br>
+            <label for="org-title">
+              <span>Organizational Title:</span><br>
+              <input type="text" id="org-title" name="org-title" required pattern="^[a-zA-Z-\s]{7,}$" autocomplete="organization-title" title="Organizational Title">
+            </label>
+            <br>
+            <br>
+            <label for="email">
+              <span>Email:</span><br>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="example@email.com" title="Email">
+            </label>
+            <br>
+            <br>
+            <label for="phone">
+              <span>Mobile Phone:</span><br>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel" title="Mobile Phone">
+            </label>
+            <br>
+            <br>
+            <label for="org-name">
+              <span>Organization Name:</span><br>
+              <input type="text" id="org-name" name="org-name" required autocomplete="organization" title="Organization Name">
+            </label>
+            <br>
+            <label for="membership-level"><br>
+              <span>Membership Level:</span>
+            
+              <select id="membership-level" name="membership-level" required>
+                <option value="">Select a Membership Level</option>
+                <option value="np">NP Membership</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+              </select>
+            </label>
+    
+            <label for="org-description"><br>
+              <br>
+              <span>Organization Description:</span><br>
+              
+              <textarea id="org-description" name="org-description" title="Organization Description"></textarea>
+            </label>
+    
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+    
+            <button type="submit">Join Now</button>
+          </form>
+        </section>
+  
+    
+        
+
+
+        <section class="membership-cards">
+            <h3>Membership Levels</h3>
+            <div class="card">
+            <h2>Non Profit Membership Levels</h2>
+            <a href="#" class="modal-link">Learn More</a>
+          </div>
+    
+          <div class="card">
+            <h2>Bronze Membership Levels</h2>
+            <a href="#" class="modal-link">Learn More</a>
+
+          </div>
+    
+          <div class="card">
+            <h2>Silver Membership Levels</h2>
+            <a href="#" class="modal-link">Learn More</a>
+          </div>
+    
+          <div class="card">
+            <h2>Gold Membership Levels</h2>
+            <a href="#" class="modal-link">Learn More</a>
+          </div>
+
+
+          
+        </section>
+      </main>
+    
+      
+    
+      <div class="modal" id="np-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h2>NP Membership Benefits</h2>
+          <p>No fee for non-profit organizations<br>Premium benefits for established businesses <br> Special events, training, advertising, event discounts, etc.</p>
+        </div>
+      </div>
+    
+
+
+      
+      <div class="modal" id="bronze-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h2>Bronze Membership Benefits</h2>
+          <p>Basic benefits for small businesses...<br>$149/year<br>Enhanced benefits for growing businesses. <br> Special events, etc.</p>
+        </div>
+      </div>
+    
+      <div class="modal" id="silver-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h2>Silver Membership Benefits</h2>
+          <p>List of benefits for Silver Membership... $119/year<br>Enhanced benefits for growing businesses. <br> Special events, event discounts, etc.</p>
+
+        </div>
+      </div>
+    
+      <div class="modal" id="gold-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h2>Gold Membership Benefits</h2>
+          <p>$99/year Premium benefits for established businesses <br> Special events, training, advertising, event discounts, etc.</p>
+        </div>
+      </div>
+       
+
+    
+    
+    
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-c">
+    
+        <p>Ernest Ohwojeheri | WDD 231 | &copy; <span id="footerCopyrightYear"></span></p>
+            <p>Last Modified: <span id="lastModifiedDate"></span></p
+         
+            </div>
+        </div>
+        
+            <div class="social">
+                <img class="facebook" src="images/facebook.png" alt="this is facebook">
+                <img class="facebook" src="images/twitter.png" alt="this is twitter">
+                <img class="facebook" src="images/instagram.png" alt="this is instagram">
+    
+            </div>
+    
+                  <div class="footer-messages">
+                    <p>&copy; 2025 | Chamber of Commerce</p>
+                    <p>Privacy Policy | Terms of Use</p>
+                  </div>
+                    
+                  </div>
+               
+              </footer>
+            
+          
+    
+
+    
+    
+    </body>
+    </html>
+    
+    
+    
+    

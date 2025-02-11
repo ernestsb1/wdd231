@@ -42,6 +42,7 @@ header {
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 0px;
     padding-bottom: 10px
+  
   }
 
  .nav-menu {
@@ -313,6 +314,45 @@ footer p {
   
 }
 
+main {
+  background-color: #FF9800;
+}
+
+.membership-cards  {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.modal {
+  position: relative;
+  text-align: right;
+  margin-right: 270px;
+  margin-bottom: 20px;
+}
+.modal {
+  color: blue;
+}
+
+.modal-link {
+  
+  color: #fff;
+}
+.card {
+  background-color: gray;
+}
+
+.both-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.join-form input {
+  padding: 0px;
+  width: 400px;
+  height: 20px;
+}
+
 @media screen and (max-width: 768px) {
 
   main {
@@ -535,4 +575,8 @@ height: 10px;
 text-align: center;
 
   }
+.both-container {
+  display: block;
+}
+
 }

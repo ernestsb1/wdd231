@@ -587,4 +587,8 @@ text-align: center;
 .modal {
   color: blue;
 }
+.thank-you h1 {
+  font-size: 1.2rem;
+}
+
 }

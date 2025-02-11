@@ -499,7 +499,7 @@ h2 {
       }
     
       .nav-menu.open {
-        display: block;
+        display: noon;
       }
     
       .nav-menu li {
@@ -578,5 +578,12 @@ text-align: center;
 .both-container {
   display: block;
 }
-
+.modal {
+  position: relative;
+  text-align: center;
+  
+}
+.modal {
+  color: blue;
+}
 }

@@ -495,9 +495,7 @@ h2 {
         text-decoration: none;
       }
     
-      .nav-menu.open {
-        display: noon;
-      }
+      
     
       .nav-menu li {
         display: block;
@@ -583,7 +581,7 @@ text-align: center;
   position: relative;
   text-align: center;
   }
-  
+
 .modal {
   color: blue;
 }

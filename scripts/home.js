@@ -69,7 +69,7 @@ function displayCourses(filteredCourses) {
 
 
         courseList.appendChild(card);
-        totalCreditsCount += course.credits;
+        totalCreditsCount += course.credits || 0;
         
     });
 
@@ -77,6 +77,8 @@ function displayCourses(filteredCourses) {
 }
 
 displayCourses(courses);
+
+
 
 document.getElementById('btn-all').addEventListener('click', () => displayCourses(courses));
 document.getElementById('btn-wdd').addEventListener('click', () => displayCourses(courses.filter(course => course.type === 'CSE')));

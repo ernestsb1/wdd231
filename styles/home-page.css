@@ -245,7 +245,7 @@ h3 {
       #fit {
         display: flex;
         justify-content: center;
-        padding: 10px, 20px;
+        padding: 10px 20px;
       }
     
     #im {
@@ -421,7 +421,7 @@ figcaption {
     }
     #course-list {
         display: block;
-        margin: 10px,20px;
+        margin: 10px 20px;
     }
 
 

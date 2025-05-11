@@ -306,7 +306,19 @@ h3 {
 
 @media only screen and (max-width: 768px) {
   #menu-toggle {
-    display: block;
+   
+    nav {
+        position: relative;
+      }
+    
+      #menu-toggle {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+      }
+    
   }
 
   nav ul {
@@ -322,6 +334,18 @@ h3 {
   nav li {
     margin-right: 0;
     padding: 0.5em;
+  }
+  h3{
+    font-size: 1em;
+  }
+  h1{
+    font-size: 1em;
+    margin-left: 40px;
+
+    padding-top: 5px;
+    color: #8BC34A;
+    font-style: italic;
+
   }
 }
 

@@ -6,16 +6,9 @@
     
     
     
-    
-        body {
-            font-family: 'Dancing Script', cursive;
-          }
-          
-          h1, h2, h3 {
-            font-family: 'Cedarville Cursive', cursive;
-          }
-          
-    
+    body {
+        font-family: "Sansita", sans-serif;
+    }
     
     header {
         background-color: #36454f;	
@@ -94,13 +87,13 @@ h3 {
     
     
 
-   .cus{
+   .cus {
         
         display: flex;
         justify-content: space-around;
         background-color: #fff;
     
-    
+   }
     .wor {
         border-style: ridge;
         width: 780px;
@@ -157,7 +150,7 @@ h3 {
         margin-left: 175px;
         margin-top: 10px;
     }
-    }
+    
     .active {
         color: yellow;
     }

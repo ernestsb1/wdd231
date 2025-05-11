@@ -326,12 +326,12 @@ h3 {
     padding: 0.5em;
   }
   h3{
-    font-size: 1.2em;
+    font-size: 1em;
   }
-  .ho{
+  h1{
     font-size: 1em;
     margin-left: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     padding-top: 5px;
     color: #8BC34A;
     font-style: italic;

@@ -9,6 +9,10 @@
     body {
         font-family: "Sansita", sans-serif;
     }
+    hi , h2, h3 {
+        font-family: "Dancing Script", cursive;
+  
+    }
     
     header {
         background-color: #36454f;	

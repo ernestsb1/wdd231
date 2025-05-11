@@ -6,9 +6,16 @@
     
     
     
-    body {
-        font-family: "Sansita", sans-serif;
-    }
+    
+        body {
+            font-family: 'Dancing Script', cursive;
+          }
+          
+          h1, h2, h3 {
+            font-family: 'Cedarville Cursive', cursive;
+          }
+          
+    
     
     header {
         background-color: #36454f;	
@@ -87,11 +94,12 @@ h3 {
     
     
 
-    .cus {
+   .cus{
         
         display: flex;
         justify-content: space-around;
         background-color: #fff;
+    
     
     .wor {
         border-style: ridge;

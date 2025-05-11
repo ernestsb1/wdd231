@@ -314,16 +314,10 @@ h3 {
     
       #menu-toggle {
         display: block;
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translateY(-50%);
-      }
+       
     
   }
-  nav ul.show {
-    display: flex;
-  }
+  
   nav ul {
     display: none;
     flex-direction: column;
@@ -342,9 +336,9 @@ h3 {
     font-size: 1.2em;
   }
   .ho{
-    font-size: 1.2em;
-    margin-left: 20px;
-    margin-bottom: 2opx;
+    font-size: 1em;
+    margin-left: 5px;
+    margin-bottom: 5px;
     padding-top: 5px;
     color: #8BC34A;
     font-style: italic;

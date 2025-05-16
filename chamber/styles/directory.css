@@ -276,9 +276,7 @@ footer p {
 
 @media screen and (max-width: 768px) {
 
-    nav {
-        display: none;
-      }
+    
     
       .nav-toggle {
         display: block;
@@ -298,7 +296,7 @@ footer p {
       }
     
       .nav-menu {
-        display: none;
+        display: block;
         list-style-type: none;
         padding: 0;
         margin: 0;
@@ -325,11 +323,15 @@ footer p {
     
   header{
     display: block;
+    h1 {
+        font-size: 1.2em;
+
+    }
   }
     
     #directory {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat( 1fr);
         
         
     }

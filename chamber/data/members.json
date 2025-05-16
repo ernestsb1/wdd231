@@ -1,0 +1,70 @@
+
+
+[
+    {
+      "name": "British Airways",
+      "address": "Waterside, PO Box 1126, Uxbridge, UB8 9XS",
+      "phone": "0344 493 0787",
+      "website": "https://www.britishairways.com",
+      "image": "https://images.seeklogo.com/logo-png/2/1/british-airways-logo-png_seeklogo-22597.png",
+      "membershipLevel":"Gold Members (Membership Level: 3)",
+      "description": "British Airways is the UK's largest international airline."
+    },
+    {
+      "name": "Marks & Spencer",
+      "address": "Marks & Spencer Group plc, Waterside House, 35 North Wharf Road, London, W2 1NW",
+      "phone": "020 8718 1919",
+      "website": "https://www.marksandspencer.com",
+      "image": "https://seeklogo.com/images/M/marks-spencer-m-s-logo-2B519324C7-seeklogo.com.png",
+      "membershipLevel": "Silver Members (Membership Level: 2)",
+      "description": "Marks & Spencer is a major British retailer."
+    },
+    {
+      "name": "National Health Service (NHS)",
+      "address": "NHS England, Skipton House, 80 London Road, London, SE1 6LH",
+      "phone": "0300 311 22 33",
+      "website": "https://www.nhs.uk",
+      "image": "https://cdn.freebiesupply.com/logos/large/2x/nhs-logo-png-transparent.png",
+      "membershipLevel": "Gold Members (Membership Level: 3)",
+      "description": "The NHS is the UK's publicly funded healthcare system."
+    },
+    {
+      "name": "Tesco",
+      "address": "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, AL7 1GA",
+      "phone": "0800 323 4050",
+      "website": "https://www.tesco.com",
+      "image": "https://www.logo.wine/a/logo/Tesco/Tesco-Logo.wine.svg",
+      "membershipLevel": "Silver Members (Membership Level: 2)",
+      "description": "Tesco is one of the UK's largest retailers."
+    },
+    {
+      "name": "University of Oxford",
+      "address": "University of Oxford, University Offices, Wellington Square, Oxford, OX1 2JD",
+      "phone": "01865 270000",
+      "website": "https://www.ox.ac.uk",
+      "image": "https://www.logo.wine/a/logo/University_of_Oxford/University_of_Oxford-Logo.wine.svg",
+      "membershipLevel": "Gold Members (Membership Level: 3)",
+      "description": "The University of Oxford is one of the world's leading research universities."
+    },
+    {
+      "name": "Virgin Media",
+      "address": "Virgin Media, The Battleship Building, 179 Harrow Road, London, W2 6NB",
+      "phone": "0345 454 1111",
+      "website": "https://www.virginmedia.com",
+      "image": "https://logos-world.net/wp-content/uploads/2021/11/Virgin-Media-Logo-700x394.png",
+      "membershipLevel": "Silver Members (Membership Level: 2)",
+      "description": "Virgin Media is a UK-based telecommunications company."
+    },
+    {
+      "name": "John Lewis & Partners",
+      "address": "John Lewis & Partners, 171 Victoria Street, London, SW1E 5NN",
+      "phone": "020 7828 1000",
+      "website": "https://www.johnlewis.com",
+      "image": "https://cdn.worldvectorlogo.com/logos/john-lewis-partners-logo.svg",
+      "membershipLevel": "Silver Members (Membership Level: 2)",
+      "description": "John Lewis & Partners is a UK-based department store chain."
+    }
+  ]
+  
+  
+  

@@ -325,7 +325,6 @@ footer p {
         margin: 0;
         background-color: #333;
         color: #fff;
-        text-decoration: n;
       }
     
       .nav-menu.open {
@@ -347,17 +346,11 @@ footer p {
   header{
     display: block;
     h1 {
-        font-size: 1.2em;
+        font-size: 1.2rem;
 
     }
   }
     
-    #directory {
-        display: grid;
-        grid-template-columns: repeat( 1fr);
-        
-        
-    }
       
       
       main{
@@ -383,7 +376,7 @@ footer p {
     }
   
   footer p {
-    font-size: 1.rem;
+    font-size: 1.1rem;
     
 }
 

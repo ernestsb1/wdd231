@@ -302,17 +302,9 @@ footer p {
         cursor: pointer;
       }
 
-      .facebook {
-        width: 70px;
-        height: 60px;
-      }
-      .twitter {
-        width: 70px;
-        height: 60px;
-      }
-      .instagram {
-        width: 70px;
-        height: 60px;
+      .facebook, .twitter, .instagram{
+        width: 64px;
+        height: 64px;
       }
     
       .nav-toggle:before {

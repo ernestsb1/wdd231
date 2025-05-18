@@ -37,7 +37,6 @@ header {
     padding-bottom: 10px
   }
 h3 {
-    background-color: #555;
     font-family: cursive;
     color: #fff;
     font-size: 2em;
@@ -345,10 +344,11 @@ footer p {
     
   header{
     display: block;
+  }
     h1 {
-        font-size: 1.2rem;
+        font-size: 1em;
 
-    }
+    
   }
     
       

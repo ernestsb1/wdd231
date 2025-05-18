@@ -280,20 +280,19 @@ footer p {
       }
   }
   
- 
-  
-  
-  
-  
-
-
-@media screen and (max-width: 768px) {
-
+  @media (max-width: 480px) {
     #directory {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-      }
+      grid-template-columns: 1fr;
+    }
+  }
+  
+   
+  
+  @media (max-width: 768px) {
+    #directory {
+      grid-template-columns: repeat(2, minmax(150px 1fr));
+    }
+  
       
       .directory-card img {
         width: 50%;
@@ -308,6 +307,11 @@ footer p {
         border: none;
         padding: 10px;
         cursor: pointer;
+      }
+
+      .social {
+        width: 70px;
+        height: 60px;
       }
     
       .nav-toggle:before {
@@ -347,7 +351,7 @@ footer p {
     display: block;
   }
     h1 {
-        font-size: 1em;
+        font-size: 0.6em;
 
     
   }
@@ -372,9 +376,7 @@ footer p {
         padding-bottom: 10px;
     }
     
-    h1{
-        font-size: 70px;
-    }
+  
   
   footer p {
     font-size: 1.1rem;

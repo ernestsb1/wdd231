@@ -302,10 +302,6 @@ footer p {
         cursor: pointer;
       }
 
-      .facebook, .twitter, .instagram{
-        width: 64px;
-        height: 64px;
-      }
     
       .nav-toggle:before {
         content: "Menu";

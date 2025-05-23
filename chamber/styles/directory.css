@@ -278,8 +278,7 @@ footer p {
       .nav-links {
         display: none;
         flex-direction: column;
-        position: absolute;
-        top: 60%;
+        top: 0;
         left: 0;
         width: 100%;
         padding: 1em;
@@ -335,6 +334,19 @@ footer p {
     margin-right: 5px;
   }
 
+  header {
+    display: grid;
+  grid-template-columns: 1fr 3fr;
+
+
+  }
+
+ .favicon {
+    width: 70px;
+    height: 50px; 
+    object-fit: cover;
+    padding-left: 10px;
+ }
 
 
     h3 {

@@ -282,6 +282,7 @@ footer p {
       
       .hamburger {
         display: block;
+        
       }
     
     
@@ -289,7 +290,7 @@ footer p {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 30px;
+        top: 20px;
         left: 0;
         width: 100%;
         background-color: #333333;
@@ -303,21 +304,27 @@ footer p {
       .nav-menu li {
         margin-bottom: 10px;
       }
-    
-    
-    
-    
-    
-  header{
-    display: flex;
-    gap: 20px;
-  }
+
+ 
     h1 {
         font-size: 1.2em;
 
     
   }
     
+  header {
+    flex-direction: row;
+    padding: 0.5em;
+  }
+
+  .favicon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+
+
     h3 {
       font-size: 1.2;
     }  
@@ -339,29 +346,18 @@ footer p {
     
     
   
-  footer p {
-    font-size: 1.1rem;
-    
-}
-
-#lastModified {
-    font-size: 1rem;
-}
-  
-body {
-    font-size: 14px;
+    .footer-container {
+      flex-direction: column;
     }
-   
-    .social {
+  
+    .footer-c, .social, .footer-messages {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .social img {
       width: 30px;
       height: 30px;
     }
-   
-    
-    foot {
-        height: 90px;
-
-    }
-   
 
 }

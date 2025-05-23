@@ -58,7 +58,7 @@ document.getElementById('grid-view').addEventListener('click', () => {
   const navmenu = document.getElementById("nav-menu");
   
   hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("show");
+    navmenu.classList.toggle("show");
     hamburger.classList.toggle('open');
 
   });

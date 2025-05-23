@@ -54,14 +54,11 @@ document.getElementById('grid-view').addEventListener('click', () => {
   });
 
 
-  const hamburger = document.getElementById("hamburger");
-  const navmenu = document.getElementById("nav-menu");
-  
-  hamburger.addEventListener("click", () => {
-    navmenu.classList.toggle("show");
-    hamburger.classList.toggle('open');
+  function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('open');
+}
 
-  });
 
 
 

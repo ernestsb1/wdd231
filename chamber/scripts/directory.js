@@ -37,18 +37,9 @@ function displayMembers(members) {
   });
 }
 
-
-function toggleMenu() {
-    document.getElementById("nav-menu").classList.toggle("show-menu");
-  }
   
 
-  const hamburger = document.getElementById("hamburger");
-  const navmenu = document.getElementById("nav-menu");
-  
-  hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("show");
-  });
+ 
 
 
 
@@ -62,6 +53,13 @@ document.getElementById('grid-view').addEventListener('click', () => {
   
   });
 
+
+  const hamburger = document.getElementById("hamburger");
+  const navmenu = document.getElementById("nav-menu");
+  
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
 
 
 

@@ -281,9 +281,12 @@ footer p {
   
   @media (max-width: 768px) {
     #directory {
-      grid-template-columns: repeat(2, minmax(100px, 1fr));
+      grid-template-columns: repeat(2,  1fr);
     }
   
+    .favicon  {
+      width: 70px;
+    }
     h1{
         font-size: 1em;
     }  
@@ -293,48 +296,31 @@ footer p {
         object-fit: cover;
         border-radius: 10px;
       }
-      .nav-toggle {
+     
+      .hamburger {
         display: block;
-        background-color: #333;
-        color: #fff;
-        border: none;
-        padding: 10px;
-        cursor: pointer;
+      }
+    
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+        padding: 1em;
+      }
+    
+      .nav-links.show {
+        display: flex;
+      }
+    
+      .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
       }
 
-    
-      .nav-toggle:before {
-        content: "Menu";
-      }
-    
-      .nav-toggle.open:before {
-        content: "Close";
-      }
-    
-      .nav-menu {
-        display: block;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        background-color: #333;
-        color: #fff;
-      }
-    
-      .nav-menu.open {
-        display: block;
-      }
-    
-      .nav-menu li {
-        display: block;
-        padding: 10px;
-      }
-    
-      .nav-menu li a {
-        color: #fff;
-        text-decoration: none;
-      }
-    
-    
     
   header{
     display: block;
@@ -353,17 +339,6 @@ footer p {
       }
       
       
-      .favicon {
-        width: 120px;
-        height: 80px ;
-        object-fit: cover;
-        padding-left: 20px;
-    
-    }
-    .favicon {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
     
   
   

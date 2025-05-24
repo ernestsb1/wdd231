@@ -278,8 +278,7 @@ footer p {
       .nav-links {
         display: block;
         flex-direction: column;
-        position: absolute;
-        top: 100;
+        top: 0;
         left: 0;
         width: 100%;
         padding: 1em;
@@ -329,7 +328,6 @@ header {
   grid-template-columns: 1fr 7fr;
   gap: 10px;
 }
-
 
 .favicon {
   width: 50px;

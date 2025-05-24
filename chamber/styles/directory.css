@@ -276,7 +276,7 @@ footer p {
 
       }
       .nav-links {
-        display: block;
+        display: none;
         flex-direction: column;
         top: 0;
         left: 0;
@@ -296,25 +296,6 @@ footer p {
 
 
     
-    
-      .knav-menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 20px;
-        left: 0;
-        width: 100%;
-        background-color: #333333;
-        padding: 1em;
-      }
-    
-      .knav-menu.show {
-        display: block;
-      }
-    
-      .knav-menu li {
-        margin-bottom: 10px;
-      }
 
  
     h1 {
@@ -329,9 +310,7 @@ header {
   gap: 10px;
 }
 
-.favicon {
-  width: 50px;
-}
+
     h3 {
       font-size: 1.2;
     }  
@@ -341,7 +320,9 @@ header {
         height: auto
       }
       
-    
+    footer p {
+      font-size: 24px;
+    }
       .footer-container {
         display: flex;
         width: 100%;

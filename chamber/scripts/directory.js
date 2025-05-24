@@ -54,6 +54,34 @@ document.getElementById('grid-view').addEventListener('click', () => {
   });
 
 
+  const gridContainer = document.querySelector('.view');
+  const gridViewButton = document.getElementById('grid-view');
+  const listViewButton = document.getElementById('list-view');
+  const gridItems = document.querySelectorAll('.grid-item');
+  
+  // Function to set grid layout based on screen size
+  function setGridLayout() {
+    const screenWidth = window.innerWidth;
+  
+    if (screenWidth >= 1200) {
+      gridContainer.style.gridTemplateColumns = 'repeat(4, 1fr)';
+    } else if (screenWidth >= 768) {
+      gridContainer.style.gridTemplateColumns = 'repeat(3, 1fr)';
+    } else if (screenWidth >= 480) {
+      gridContainer.style.gridTemplateColumns = 'repeat(2, 1fr)';
+    } else {
+      gridContainer.style.gridTemplateColumns = 'repeat(1, 1fr)';
+    }
+
+    function switchToGridView() {
+      gridContainer.style.display = 'grid';
+      setGridLayout();
+    }
+    
+  }
+  
+
+
   function toggleMenu() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('open');

@@ -283,7 +283,7 @@ header .favicon {
       #lastModified {
           font-size: 1rem;
       }
-      social img {
+      .social img {
       width: 20px; 
       height: 10px;
       text-align: center;

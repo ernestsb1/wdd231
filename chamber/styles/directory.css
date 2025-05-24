@@ -72,40 +72,7 @@ nav a:hover {
   padding: 10px;
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
-}
-
-.knav-menu {
-  padding-top: 15px;
-}
-
-  
-  .khamburger {
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-  }
-  
-  .khamburger span {
-    display: block;
-    width: 30px;
-    height: 3px;
-    background-color: #333;
-    margin-bottom: 5px;
-  }
-  
-  #knav-menu {
-    display: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #knav-menu.show-menu {
-    display: block;
-  }
-   
+}  
 
   .navbar {
   display: flex;
@@ -222,9 +189,6 @@ main {
 }
 
 
-
-
-
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -282,7 +246,6 @@ footer p {
         left: 0;
         width: 100%;
         padding: 1em;
-        background-color: #008000;
     }
 
     .nav-links.open {
@@ -290,12 +253,9 @@ footer p {
     }
 
     .nav-links a {
-      font-size: 0.8em;
+      font-size: 1em;
       padding: 10px;
     }
-
-
-    
 
  
     h1 {
@@ -310,6 +270,17 @@ header {
   gap: 10px;
 }
 
+header .favicon {
+  width: 50px;
+  height: 30px; 
+  object-fit: cover;
+  padding-left: 10px;
+
+}
+.favicon {
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
 
     h3 {
       font-size: 1.2;

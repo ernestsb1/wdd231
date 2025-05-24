@@ -28,7 +28,6 @@ header {
 }
 
 
-
   
   header h1 {
     color:#fff ;
@@ -43,28 +42,6 @@ h3 {
     font-size: 2em;
 }
  
-
-.knav-menu {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  list-style: none;
- }
-
-knav {
-  background-color: #333333;
-  height: 70px;
-  margin-top: -15px;
-
-}
-knav a {
-  color: #fff;
-  text-decoration: none;
-
-  font-size: 1.5rem;
-  margin-top: 10px;
-  text-decoration: none;
-}
 
 nav a:hover {
   background-color: #555;
@@ -103,7 +80,7 @@ nav a:hover {
     text-decoration: none;
     color: #fff;
     list-style: none;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 
@@ -272,7 +249,7 @@ header {
 
 header .favicon {
   width: 50px;
-  height: 30px; 
+  height: 40px; 
   object-fit: cover;
   padding-left: 10px;
 
@@ -282,8 +259,10 @@ header .favicon {
   margin-top: 10px;
 }
 
+
+
     h3 {
-      font-size: 1.2;
+      font-size: 1em;
     }  
       
       main{
@@ -311,6 +290,18 @@ header .favicon {
         display: block;
       }
   
-   
+      #grid-view {
+        grid-template-columns: repeat(2, 1fr);
+        
+      }
 
 }
+ @media (max-width: 480px){
+
+  #grid-view {
+    grid-template-columns: repeat(1fr);
+    
+  }
+ }
+  
+ 

@@ -283,12 +283,15 @@ header .favicon {
       #lastModified {
           font-size: 1rem;
       }
-      .social img {
-      width: 50px; 
-      height: 30px;
-      text-align: center;
-      
-        }
+
+      .facebook, .twitter, .instagram {
+        width: 40px;
+      }
+      .facebook, .twitter, .instagram {
+        width: 40px;
+      }
+    
+    
       .both-container {
         display: block;
       }
@@ -321,6 +324,10 @@ header .favicon {
     grid-template-columns: repeat(1fr);
     
   }
+  .facebook, .twitter, .instagram {
+    width: 30px;
+  }
+
   
  }
   

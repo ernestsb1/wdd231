@@ -276,9 +276,10 @@ footer p {
 
       }
       .nav-links {
-        display: none;
+        display: block;
         flex-direction: column;
-        top: 0;
+        position: absolute;
+        top: 100;
         left: 0;
         width: 100%;
         padding: 1em;
@@ -323,32 +324,16 @@ footer p {
     
   }
     
-  header {
-    display: grid;
-    grid-template-columns: 1fr, 2fr;
-    gap: 10px;
-  }
-
-  .favicon {
-    width: 20px;
-    margin-right: 5px;
-  }
-
-  header {
-    display: grid;
-  grid-template-columns: 1fr 3fr;
+header {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  gap: 10px;
+}
 
 
-  }
-
- .favicon {
-    width: 70px;
-    height: 50px; 
-    object-fit: cover;
-    padding-left: 10px;
- }
-
-
+.favicon {
+  width: 50px;
+}
     h3 {
       font-size: 1.2;
     }  

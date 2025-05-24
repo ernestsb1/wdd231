@@ -326,10 +326,7 @@ header .favicon {
 }
  @media (max-width: 480px){
 
-  #grid-view {
-    grid-template-columns: repeat(1fr);
-    
-  }
+  
   .facebook, .twitter, .instagram {
     width: 30px;
     height: 20px;

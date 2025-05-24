@@ -285,11 +285,10 @@ header .favicon {
       }
 
       .facebook, .twitter, .instagram {
-        width: 40px;
+        width: 50px;
+        height: 25px;
       }
-      .facebook, .twitter, .instagram {
-        width: 40px;
-      }
+     
     
     
       .both-container {
@@ -326,6 +325,7 @@ header .favicon {
   }
   .facebook, .twitter, .instagram {
     width: 30px;
+    height: 20px;
   }
 
   

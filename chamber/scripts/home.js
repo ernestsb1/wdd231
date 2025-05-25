@@ -61,20 +61,6 @@ getWeatherForecast();
 
 
 
-
-
-
-
-
-
-
-// Get the member spotlights data from the JSON file
-
-
-
-
-
-
 // Get the spotlights container element
 const spotlightsContainer = document.getElementById('spotlights-container');
 
@@ -108,19 +94,6 @@ fetch('data/members.json')
   .catch(error => {
     console.error(error);
 });
-
-
-
-
-
-
-
-
-  
- 
-
-
-
 
 
         const footerCopyrightYear = document.getElementById('footerCopyrightYear');

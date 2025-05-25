@@ -45,84 +45,80 @@ header {
   
   }
 
-  .nav-menu {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-   }
-  
-  nav {
-    background-color: #333333;
-    height: 70px;
-    margin-top: -15px;
-
-  }
-  nav a {
-    color: #fff;
-    text-decoration: none;
-
-    font-size: 1.5rem;
-    margin-top: 10px;
-    text-decoration: none;
-  }
-
   nav a:hover {
     background-color: #555;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
-  }
-
-  .nav-menu {
-    padding-top: 15px;
-  }
-
-  .nav-toggle {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 360px;
-    bottom: 40px;
-    z-index: 1;
-
-  }
+  }  
   
- 
-  
-  .nav-toggle {
-    display: none;
-  }
-
- 
-  
-  .hero {
+    .navbar {
     display: flex;
     justify-content: center;
-    gap: 20px;
+      gap: 20px;
+      padding: 2rem;
+      background-color: #333333;
+      color: #fff;
   }
   
-  .hero {
-    padding-top: 30px;
+  .hamburger {
+    display: none;
+      cursor: pointer;
   }
+  
+  .nav-links ul{
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  
+  }
+  
+  
+  
+  .nav-links a {
+      padding: 1rem;
+      text-decoration: none;
+      color: #fff;
+      list-style: none;
+      font-size: 1.5em;
+  }
+  
+ 
+
+ 
+  
+
   .hero-content {
-    width: 750px;
-    height: 350px;
+    display: block;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin-left: 100px;
   }
   h4 {
-    font-size: 1.7em;
+    font-size: 1.4em;
     text-align: center;
-    margin-top: -10px;
+    margin-top: 10px;
 
   }
   .hero-content p {
     font-size: 19px;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    background-color: #f2f2f2;
+    padding: 20px;
     color: #0077b6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+    
+    
   }
   
+  h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7em;
+  }
   .hero-content .btn {
     background-color: #0077b6;
     color: #fff;
@@ -162,6 +158,12 @@ header {
   .weather-forecast {
     text-align: center;
   }
+ 
+  .weather p {
+    font-size: 20px;
+    padding-left: 10px;
+
+  }
   
   
   .spotlight p {
@@ -179,13 +181,15 @@ padding-left: 15px;
     text-align: center;
   }
   .spotlight img {
-    width: width 120px;
+    width: 120px;
     height: 70px;
     margin-bottom: 20px;
     align-items: center;
   }  
   
- 
+  .spotlight img {
+    padding-left: 20px;
+  }
 
   .footer-container {
     display: flex;
@@ -300,205 +304,51 @@ display: none;
   height: 20px;
 }
 
-@media screen and (max-width: 768px) {
-
-  main {
-    width: 100%;
-    height: auto;
-  }
-   h5 {
-    font-size: 1rem;
-    text-align: center;
-   }
-
- 
-   h3 {
-    font-size: 1.2rem;
-    margin-left: 10px;
-    margin-bottom: 10px;
-   }
-  
-
-h2 {
-  text-align: center;
-}
-    .events {
-        display: block;
-        margin-bottom: 20px;
-        background-color: #fff;
+@media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
     }
-    
-    #spotlights-container {
-        display: block;
-        margin: 0 auto;
-      }
-      
-  .spotlight {
-    width: 100%;
-    margin: 0 auto;
-
-  }
-  .spotlight p {
-    margin-left: 5px;
-
-  }
   
- 
-
-  h5 {
-    font-size: 1.1rem;
-  }
-  .spotlight img {
-    width: 50%;
-    height: 40%;
-    margin-bottom: 20px;
-  }
-    
-    
-  
-  
-  
- 
-
-  
-  
-  
-  h3 {
-    font-size: 1.2rem;
-    margin-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0077b6;
-  }
- 
-  
-  .weather-forecast {
-    text-align: center;
-  } 
-
-  
-    
-      
-     
-    nav {
-        display: none;
-      }
-    
-      .nav-toggle {
-        display: none;
-        background-color: #333;
-        color: #fff;
-        border: none;
-        padding: 10px;
-        cursor: pointer;
-      }
-  
-    
-      .nav-toggle.open:before {
-        content: "Close";
-      }
-    
-      .nav-menu {
-        display: none;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        background-color: #333;
-        color: #fff;
-        text-decoration: none;
-      }
-    
-      
-    
-      .nav-menu li {
-        display: block;
-        padding: 10px;
-      }
-    
-      .nav-menu li a {
-        color: #fff;
-        text-decoration: none;
-      }
-    
-    
-    
-  h4 {
-    font-size: 1rem;
-  }
-    
-   .h3 {
-    font-size: 1rem;
-    text-align: left;
-    margin-left: 10px;
-   }
-      
-      
-      
-      .favicon {
-        width: 120px;
-        height: 80px ;
-        object-fit: cover;
-        padding-left: 20px;
-    
+    .hero-content {
+      width: 90%;
+      margin-left: 20px;
     }
-    .favicon {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
-    h1{
-        font-size: 60px;
-        text-align: center;
-    }
-    
-    
-    
   
-  
-body {
-    font-size: 14px;
+    header {
+      grid-template-columns: 1fr;
+      text-align: center;
     }
-   
   
-   header {
+    header .favicon {
+      padding-left: 0;
+      margin-top: 10px;
+    }
+
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .hamburger {
     display: block;
-   }
-    
-   footer p {
-    font-size: 1.1rem;
-    text-align: center;
-    
-}
+  }
 
-.footer-container {
-  display: flex;
-  width: 100%;
-}
-#lastModified {
-    font-size: 1rem;
-}
-social img {
-width: 20px; 
-height: 10px;
-text-align: center;
+  .nav-links {
+    display: none;
+  }
 
+  #spotlights-container {
+    flex-direction: column;
+  }
+
+  .footer-container {
+    flex-direction: column;
   }
 .both-container {
-  display: block;
-}
-
-.modal {
-  display: none;
-}
-.modal {
-  position: relative;
-  text-align: center;
+    grid-template-columns: 1fr;
   }
 
-.modal {
-  color: blue;
-}
-.thank-you h1 {
-  font-size: 1.2rem;
-}
-
+  .join-form input {
+    width: 100%;
+  }
 }

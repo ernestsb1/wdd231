@@ -19,49 +19,39 @@
 
 
 
-
     </head>
     <body>
     
         <header>
         
-            <img class="favicon" src="images/favicon.png" alt="looking good of myself" loading="lazy >
-        </div>
-            <h1>Welcome to Chamber of Commerce</h1>
-        
-        </header> 
-        
-        <button class="nav-toggle">Menu</button>
+          <img class="favicon" src="images/favicon.png" alt="This is my local logo">
 
-        
-        <nav>
-            <ul class="nav-menu">
-                <li><a href="index.html" target="_blank">Home</a></li>
-                <li><a href="directory.html" target="_blank">Directory</a></li>
-                <li><a href="join.html" target="_blank">Join</a></li>
-                <li><a href="discover.html" target="_blank">Discover</a></li>
-            </ul>
-     
-        
-    
-    
-                
-            
-        
-              
-        </nav>
-    
+    <h1>Welcome to Chamber of Commerce</h1>
 
+        </header>   
+    <div class="navbar">
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <nav class="nav-links">
+          <ul> 
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="directory.html" target="_blank">Directory</a></li>
+            <li><a href="join.html" target="_blank">Join</a></li>
+            <li><a href="discover.html" target="_blank">Discover</a></li>
+        </ul>
+    </nav>
+    </div>
+    
 
     <main>
         <section class="hero">
             <div id="hero-img">
               
-            <img src="images/hero-image.jpg" width="700" height="450"  alt="This is a beautiful hero image" loading="lazy">
+            <img src="images/hero-image.jpg" width="100%" height="450"  alt="This is a beautiful hero image" loading="lazy">
         </div>
-    
-            <div class="hero-content">
-                <h4>Welcome to Our Chamber of Commerce</h4>
+        </section>
+        
+        <section class="hero-content">
+                <h6>Welcome to Our Chamber of Commerce</h6>
                 <p>Chamber of Commerce: A Catalyst for Business Growth
                     A Chamber of Commerce is a vital organization that plays a significant role in promoting and supporting the interests of businesses within a specific geographic area. The primary objective of a Chamber of Commerce is to foster a favorable business environment, facilitate economic growth, and provide resources and support to its members.
                     
@@ -77,8 +67,8 @@
                 <p>Join our vibrant community of businesses and support your local economy.</p>
                 <a href="#" class="btn">Join Now</a>
               </div>
-            </div>
-            </div>
+            
+            
         </section>
         <section class="h3>">
             <h3>Home</h3>
@@ -91,12 +81,13 @@
             <section class="events">
               <div class="event-card">
                 <h2>Events</h2>
-                <img src="images/event.jpg" width="250" height="150" alt="Meaningful Event" loading="lazy>
+                <img src="images/event.jpg" width="450" height="150" alt="Meaningful Event">
                 <p>Join us for an evening of networking and connect with other local businesses.</p>
                 <p>Attend our monthly luncheon and hear from a guest speaker on a relevant business topic.</p>
                 <p>Date: July 15, 2025</p>
               </div>
             </section>
+
             <section class="weather">
               <div class="flex">
                 <h2>Current Weather</h2>
@@ -109,15 +100,12 @@
                 <p id="weather-condition"></p>
               </div>
             </section>
+
             <section class="weather-forecast">
               <h2>Weather Forecast</h2>
             </section>
-          </div>
-          
-        
-       
-
       
+        </div>
 
         </main>   
     
@@ -154,3 +142,4 @@
     
     
     
+

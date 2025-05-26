@@ -12,9 +12,16 @@ header {
   background-color: #36454f;
   padding: 1rem;
 
-
-
+}
+  h1 {
+    font-size: 1.7rem;
+    margin-left: 20px;
+    font-family: cursive;
+    color: #0077b6;
+    text-align: center;
   }
+
+  
 
  header .favicon {
     width: 190px;
@@ -36,7 +43,7 @@ header {
 }
 
   
-  header h1 {
+  header h6 {
     color:#fff ;
     font-size: 2.1em;
     font-family: 'Times New Roman', Times, serif;
@@ -86,7 +93,10 @@ header {
   }
   
  
-
+.hero img {
+    width: 100%;
+    height: 500px;
+}
  
   
 
@@ -118,6 +128,7 @@ header {
   h6 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.7em;
+    color: #fff;
   }
   .hero-content .btn {
     background-color: #0077b6;
@@ -224,13 +235,6 @@ footer p {
 }
 
 
-
-
-
-
-
-
-
 .menu {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -270,24 +274,7 @@ footer p {
   margin-top: 5px;
 }
 
-.modal{
-display: none;
-} 
 
-.kmodal {
-  position: relative;
-  text-align: right;
-  margin-right: 270px;
-  margin-bottom: 20px;
-}
-.modal {
-  color: blue;
-}
-
-.modal-link {
-  
-  color: #fff;
-}
 .card {
   background-color: gray;
 }
@@ -306,16 +293,16 @@ display: none;
 
 @media (max-width: 768px) {
     .grid-container {
-      grid-template-columns: repeat(2, 1fr);
+        display: block;
     }
   
     .hero-content {
-      width: 90%;
-      margin-left: 20px;
+      width: 100%;
+      margin-left: 10px;
     }
   
     header {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(3fr 7fr);
       text-align: center;
     }
   
@@ -331,10 +318,11 @@ display: none;
 
   .hamburger {
     display: block;
+    cursor: pointer;
   }
 
-  .nav-links {
-    display: none;
+  .nav-links ul {
+    display: block;
   }
 
   #spotlights-container {
@@ -351,4 +339,13 @@ display: none;
   .join-form input {
     width: 100%;
   }
+
+  .facebook, .twitter, .instagram {
+    width: 50px;
+    height: 50px;
+  }
 }
+.show-menu {
+    display: block;
+  }
+  

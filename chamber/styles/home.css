@@ -301,15 +301,38 @@ footer p {
       margin-left: 10px;
     }
   
+    header .favicon {
+        width: 50px;
+        height: 40px; 
+        object-fit: cover;
+        padding-left: 10px;
+      
+      }
+      .favicon {
+        padding-bottom: 10px;
+        margin-top: 10px;
+      }
     header {
-      grid-template-columns: repeat(3fr 7fr);
-      text-align: center;
-    }
-  
+        display: grid;
+        grid-template-columns: repeat(3, 7fr);
+        gap: 10px;
+      }
     header .favicon {
       padding-left: 0;
       margin-top: 10px;
     }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        padding: 20px;
+      }
+    
+    
 
   .navbar {
     flex-direction: column;

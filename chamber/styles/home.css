@@ -327,7 +327,7 @@ h6 {
     .nav-links {
         display: none;
         position: absolute;
-        top: 0;
+        top: -20;
         left: 0;
         background-color: #333;
         width: 100%;
@@ -337,7 +337,7 @@ h6 {
     
 
   .navbar {
-    flex-direction: column;
+    display: block;
     padding: 1rem;
   }
 

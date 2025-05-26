@@ -360,7 +360,7 @@ h6 {
 .both-container {
     grid-template-columns: 1fr;
   }
-.footer-messages {
+.footer-messages p {
     text-align: center;
 }
   .join-form input {

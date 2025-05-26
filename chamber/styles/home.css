@@ -295,7 +295,10 @@ footer p {
     .grid-container {
         display: block;
     }
-  
+    .hero #hero-img img {
+        width: 100%;
+        height: auto;
+      }
     .hero-content {
       width: 100%;
       margin-left: 10px;
@@ -321,13 +324,12 @@ footer p {
       padding-left: 0;
       margin-top: 10px;
     }
-h6 {
-    font-size: 20px;
+    h6 {
+    font-size: 18px;
 }
     .nav-links {
         display: none;
         position: absolute;
-        top: -20;
         left: 0;
         background-color: #333;
         width: 100%;

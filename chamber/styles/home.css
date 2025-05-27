@@ -304,6 +304,12 @@ footer p {
       margin-left: 10px;
     }
   
+    .event-card img {
+        width: 100%;
+        height: auto;
+      }
+    
+
     header {
         display: grid;
         grid-template-columns: 1fr 7fr;

@@ -13,6 +13,12 @@ header {
   padding: 1rem;
 
 }
+
+h6 {
+    font-family: cursive;
+    color: #fff;
+    font-size: 2em;
+}
   h1 {
     font-size: 1.7rem;
     margin-left: 20px;
@@ -46,7 +52,7 @@ header {
   header h6 {
     color:#fff ;
     font-size: 2.1em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
     padding-bottom: 0px;
     padding-bottom: 10px
   
@@ -103,10 +109,9 @@ header {
 
   .hero-content {
     display: block;
-    width: 80%;
     height: auto;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 10px;
   }
   h4 {
     font-size: 1.4em;
@@ -126,11 +131,7 @@ header {
     
   }
   
-  h6 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.7em;
-    color: #fff;
-  }
+ 
   .hero-content .btn {
     background-color: #0077b6;
     color: #fff;
@@ -337,7 +338,7 @@ footer p {
         padding-bottom: 10px;
         margin-top: 10px;
       }
-    h6 {
+    header h6 {
             font-size: 18px;
           }  
 

@@ -72,9 +72,8 @@ document.getElementById('grid-view').addEventListener('click', () => {
 
   
   function toggleMenu() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('open');
-}
+    document.querySelector('.nav-links').classList.toggle('show-menu');
+  }
 
 
 

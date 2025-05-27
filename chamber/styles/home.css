@@ -115,9 +115,9 @@ header {
   }
   .hero-content p {
     font-size: 21px;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 20px;
-    color: #0077b6;
+    color: #333333;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 40px;
@@ -304,7 +304,13 @@ footer p {
       margin-left: 10px;
     }
   
-    header .favicon {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 7fr;
+        gap: 10px;
+      }
+      
+      header .favicon {
         width: 50px;
         height: 40px; 
         object-fit: cover;
@@ -315,19 +321,13 @@ footer p {
         padding-bottom: 10px;
         margin-top: 10px;
       }
-    header {
-        display: grid;
-        grid-template-columns: repeat(3, 7fr);
-        gap: 10px;
-      }
-    header .favicon {
-      padding-left: 0;
-      margin-top: 10px;
-    }
     h6 {
     font-size: 18px;
 }
-    .nav-links {
+   
+
+
+.nav-links {
         display: none;
         position: absolute;
         left: 0;
@@ -356,23 +356,48 @@ footer p {
     flex-direction: column;
   }
 
-  .footer-container {
-    flex-direction: column;
+  footer p {
+    font-size: 24px;
   }
-.both-container {
-    grid-template-columns: 1fr;
+    .footer-container {
+      display: flex;
+      width: 100%;
+    }
+    #lastModified {
+        font-size: 1rem;
+    }
+
+    .facebook, .twitter, .instagram {
+      width: 40px;
+      height: 40px;
+    }
+   
+  
+  
+    .both-container {
+      display: block;
+    }
+
+
+    .footer-c {
+      padding-left: 10px;
+    }
+    
+  .footer-messages {
+      padding-right: 10px;
   }
-.footer-messages p {
-    text-align: center;
-}
-  .join-form input {
-    width: 100%;
+  
+  .social {
+      margin-top: 10px;
+      padding: 10px;
+  }
+  
+  footer p {
+      font-size: 1.10em;
+      color: white;
+      padding-top: 10px;
   }
 
-  .facebook, .twitter, .instagram {
-    width: 50px;
-    height: 50px;
-  }
   nav a:hover {
     background-color: #555;
     color: #fff;

@@ -131,16 +131,25 @@ h6 {
     
   }
   
- 
-  .hero-content .btn {
-    background-color: #0077b6;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 4px;
-    margin-top: 20px;
-  }
   
-    
+    #join {
+  position: absolute;
+  top: 100%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background-color: #4d0428cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn {
+      color: #4CAF50;
+      
+
+}
   
   .grid-container {
     display: grid;
@@ -258,16 +267,6 @@ footer p {
 	padding: 1rem;
 	font-weight: 700;
 }
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #36454f;
-
-}
-
-
 
 .spotlight {
     background-color: #fff;
@@ -286,21 +285,6 @@ footer p {
 }
 
 
-.card {
-  background-color: gray;
-}
-
-.both-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
-.join-form input {
-  padding: 0px;
-  width: 400px;
-  height: 20px;
-}
 
 @media (max-width: 768px) {
     .grid-container {
@@ -315,6 +299,11 @@ footer p {
       margin-left: 10px;
     }
   
+   #join {
+    padding: 3vw 6vw;
+    font-size: 5vw;
+  }
+
     .event-card img {
         width: 100%;
         height: auto;
@@ -424,18 +413,6 @@ footer p {
     text-align: center;
   }
  
-  .hero-content p {
-    font-size: 21px;
-    background-color: #ffffff;
-    padding: 20px;
-    color: #333333;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    
-    
-  }
-
   nav a:hover {
     background-color: #555;
     color: #fff;
@@ -444,7 +421,20 @@ footer p {
     transition: background-color 0.3s ease-in-out;
   }  
 }
+
+  
+ @media (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+ }
+
+@media (max-width: 480px) {
+  .join-now {
+    padding: 4vw 8vw;
+    font-size: 6vw;
+  }
+}
 .show-menu {
     display: block;
   }
-  

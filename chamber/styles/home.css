@@ -296,16 +296,7 @@ footer p {
         height: auto;
       }
 
-  #join  .btn{
-    left: 50%; /* Changed left position to 50% for better centering */
-    transform: translate(-50%, -50%);
-    background-color: #4d0428cc;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-  }
+  
 
   .btn {
     color: #4CAF50;
@@ -417,10 +408,9 @@ footer p {
 
 
   .hero-content {
-    display: block;
     width: 100%;
     height: auto;
-    text-align: center;
+    padding-left: 10px;
   }
  
   nav a:hover {

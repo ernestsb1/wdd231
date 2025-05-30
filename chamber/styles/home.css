@@ -302,15 +302,16 @@ footer p {
         width: 100%;
         height: auto;
       }
-    .hero-content {
-      width: 100%;
-      margin-left: 10px;
-    }
+
   
    #join {
-    padding: 3vw 6vw;
-    font-size: 5vw;
+    padding: 10px;
+    font-size: 16px;
   }
+#join .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
 
     .event-card img {
         width: 100%;

@@ -298,20 +298,58 @@ footer p {
     .grid-container {
         display: block;
     }
-    .hero #hero-img img {
-        width: 100%;
-        height: auto;
-      }
-
-  
-   #join {
-    padding: 10px;
-    font-size: 16px;
+   
+    .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
   }
-#join .btn {
-  padding: 10px 20px;
-  font-size: 16px;
-}
+
+  #hero-img {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  #hero-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  #join {
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+ padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #join p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+
 
     .event-card img {
         width: 100%;

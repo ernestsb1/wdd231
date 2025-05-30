@@ -410,9 +410,14 @@ footer p {
   .hero-content {
     width: 100%;
     height: auto;
-    padding-left: 10px;
+    padding-left: 0;
   }
  
+  .hero-content p {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+  }
   nav a:hover {
     background-color: #555;
     color: #fff;

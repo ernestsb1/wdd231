@@ -291,14 +291,13 @@ footer p {
     .grid-container {
         display: block;
     }
-    .hero #hero-img img {
+    #hero-img {
         width: 100%;
         height: auto;
       }
 
   #join {
     position: absolute;
-    top: 80%; /* Adjusted top position */
     left: 50%; /* Changed left position to 50% for better centering */
     transform: translate(-50%, -50%);
     background-color: #4d0428cc;
@@ -307,7 +306,6 @@ footer p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 80%; /* Added width for better responsiveness */
     text-align: center;
   }
 

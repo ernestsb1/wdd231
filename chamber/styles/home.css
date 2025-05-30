@@ -114,13 +114,6 @@ h6 {
 }
  
   
-
-  .hero-content {
-    display: block;
-    height: auto;
-    text-align: center;
-    margin-left: 10px;
-  }
   h4 {
     font-size: 1.4em;
     text-align: center;
@@ -298,58 +291,32 @@ footer p {
     .grid-container {
         display: block;
     }
-   
-    .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-  }
-
-  #hero-img {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-  }
-
-  #hero-img img {
-    width: 100%;
-    height: auto;
-  }
+    .hero #hero-img img {
+        width: 100%;
+        height: auto;
+      }
 
   #join {
     position: absolute;
-    bottom: -2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #fff;
- padding: 1.5rem;
+    top: 80%; /* Adjusted top position */
+    left: 50%; /* Changed left position to 50% for better centering */
+    transform: translate(-50%, -50%);
+    background-color: #4d0428cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%; /* Added width for better responsiveness */
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-
-  #join p {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
   }
 
   .btn {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.25rem;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
+    color: #4CAF50;
+    font-size: 16px; /* Added font size for better readability */
   }
 
-  .btn:hover {
-    background-color: #0056b3;
-  }
-
-
+   
 
     .event-card img {
         width: 100%;

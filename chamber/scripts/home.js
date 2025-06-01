@@ -99,6 +99,7 @@ fetch('data/members.json')
 });
 
 
+
         const footerCopyrightYear = document.getElementById('footerCopyrightYear');
 const lastModifiedDate = document.getElementById('lastModifiedDate');
 

@@ -352,7 +352,9 @@ display: none;
         padding: 20px;
       }
     
-    
+    h3 {
+      font-size: 1.4em;
+    }  
 
   .navbar {
     display: block;

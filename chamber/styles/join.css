@@ -31,7 +31,13 @@ header {
     text-align: center;
   }
 
-  
+  h6 {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    font-family: cursive;
+    color: #00698f;
+    text-align: center;
+  }
 
  header .favicon {
     width: 190px;
@@ -341,12 +347,7 @@ display: none;
         padding-bottom: 10px;
         margin-top: 10px;
       }
-    header h6 {
-            font-size: 1.4em;
-          }  
-
-   
-
+    
 
 .nav-links {
         display: none;

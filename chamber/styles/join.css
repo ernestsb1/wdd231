@@ -322,14 +322,9 @@ display: none;
 @media (max-width: 768px) {
     .grid-container {
         display: block;
-    }
-    #hero-img {
-        width: 100%;
-        height: auto;
-      }
+    } 
 
     
-
     header {
         display: grid;
         grid-template-columns: 1fr 7fr;
@@ -427,7 +422,9 @@ display: none;
     width: 100%;
     padding: 20px;
   }
-
+.join-form input {
+  width: 100%;
+}
   .membership-cards {
     width: 100%;
     padding: 20px;

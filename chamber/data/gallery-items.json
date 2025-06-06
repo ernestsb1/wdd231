@@ -1,0 +1,59 @@
+
+
+
+
+  
+
+[
+  {
+    "name": "Amazon UK",
+    "image": "data/images/amazon.webp",
+    "address": "Amazon UK, 1 Principal Place, Worship Street, London, EC2A 2FA",
+    "description": "Discover a vast selection of products on Amazon, from electronics to fashion, and enjoy fast shipping, competitive prices, and excellent customer service."
+  },
+  {
+    "name": "ASOS",
+    "image": "data/images/asos.webp",
+    "address": "ASOS, Greater London House, Hampstead Road, London, NW1 7FB",
+    "description": "Stay on top of the latest fashion trends with ASOS, offering a vast range of clothing, shoes, and accessories for men and women, with a focus on style, quality, and affordability."
+  },
+  {
+    "name": "eBay UK",
+    "image": "data/images/ebay.webp",
+    "address": "eBay UK, 5 Roundwood Avenue, Stockley Park, Uxbridge, UB11 1FF",
+    "description": "Buy and sell on eBay, a global marketplace where you can find unique items, rare collectibles, and everyday essentials, with a focus on community, trust, and competitive pricing."
+  },
+
+  {
+    "name": "Nisbets",
+    "image": "data/images/home-appliance.webp",
+    "address": "Currys PC World, Brandon Way, Wakefield WF2 9XE",
+    "description": "Upgrade your home with the latest appliances, from smart refrigerators to high-tech washing machines, designed to make your life easier, more efficient, and more enjoyable."
+  },
+  {
+    "name": "stylight",
+    "image": "data/images/stylight.webp",
+    "address": "Nike UK, Nike Direct Ltd, PO Box 7669, Leicester, LE1 9HN",
+    "description": "Step into style with our wide range of footwear, from sleek and sophisticated dress shoes to comfortable and durable sneakers, perfect for any occasion or activity."
+  },
+  {
+    "name": "Healthspan",
+    "image": "data/images/healthspan.webp",
+    "address": "Holland & Barrett, Samuel Ryder House, Barling Way, Nuneaton, CV10 7RH",
+    "description": "Boost your health and wellness with our selection of supplements, carefully crafted to support your fitness goals, energy levels, and overall well-being."
+  },
+  {
+    "name": "Smart Home",
+    "image": "data/images/smarthome.webp",
+    "address": "Amazon UK, 1 Principal Place, Worship Street, London, EC2A 2FA",
+    "description": "Transform your home into a smart haven with our range of innovative devices, from voice assistants to security systems, designed to make your life more convenient, secure, and enjoyable."
+
+  },
+  {
+    "name": "Patio and Garden",
+    "image": "data/images/patio.webp",
+    "address": "B&Q, Portswood House, 1 Hampshire Corporate Park, Chandlers Ford, Eastleigh, SO53 3YX",
+    "description": "Create your outdoor oasis with our selection of patio and garden items, from stylish furniture to essential gardening tools, perfect for relaxing, entertaining, or cultivating your green thumb."
+
+}
+]

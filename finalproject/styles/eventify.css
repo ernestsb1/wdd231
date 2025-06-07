@@ -82,6 +82,12 @@ h2{
     background-color: #36454f;
     color: #f9f9f9;
 }
+.eventpix {
+  display: flex;
+  height: auto;
+  gap: 20px;
+  padding: 20px;
+}
 
 @media screen and (max-width: 768px) {
   
@@ -110,5 +116,10 @@ h2{
   height: auto;
   margin: 20px 0;
 }
-
+.eventpix {
+  display: block;
+   width: 100%;
+  height: auto;
+  gap: 20px;
+}
 }

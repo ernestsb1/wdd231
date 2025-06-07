@@ -15,11 +15,15 @@
     gap: 10px;
 }
 
+h6{
+    font-size: 2em;
+    color: #fff;
+}
 .gallery-card img {
-    grid-area: image;
-    width: 150px;
-    height: 90px;
-    padding-left: 50px;    
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
 }
 
 .gallery-card h2 {
@@ -28,7 +32,9 @@
     padding: 10px;
 }
 
-
+button {
+    background-color: #C9E4CA;
+}
 
 .gallery-card address {
     grid-area: address;
@@ -65,4 +71,39 @@
     .gallery-card img:hover {
         transform: none;
     }
+}
+@media (max-width: 768px) {
+
+.nav-links {
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        padding: 20px;
+      }
+    
+    
+
+  .navbar {
+    display: block;
+    padding: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-links ul {
+    display: block;
+  }
+  h6{
+    font-size: 20px;
+    color: #fff;
+}
+}
+
+.show-menu {
+  display: block;
 }

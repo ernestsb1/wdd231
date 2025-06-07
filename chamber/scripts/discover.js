@@ -42,6 +42,12 @@ if (!lastVisitDate) {
 localStorage.setItem('lastVisitDate', currentDate);
 
 
+
+function toggleMenu() {
+  document.querySelector('.nav-links').classList.toggle('show-menu');
+}
+
+
 const footerCopyrightYear = document.getElementById('footerCopyrightYear');
 const lastModifiedDate = document.getElementById('lastModifiedDate');
 

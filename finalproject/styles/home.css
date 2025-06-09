@@ -95,9 +95,9 @@ nav a:hover {
     font-size: 22px;
 }
 .join-link {
-  background-color: #4CAF50;
+  background-color: #007bff;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border: none;
   border-radius: 5px;
 cursor: pointer;
@@ -232,7 +232,7 @@ footer p {
     
 @media (max-width: 768px) {
   .hero-content {
-    width: 80%;
+    width: 100%;
   }
 
   .hero-content h1 {
@@ -242,6 +242,98 @@ footer p {
   .hero-content p {
     font-size: 16px;
   }
+
+
+header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+
+  .favicon {
+    width: 50px;
+    height: 30px;
+  }
+  /* Adjust navbar styles */
+  .navbar {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+  }
+
+   .nav-links li {
+    margin-bottom: 10px;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  /* Adjust hero styles */
+  .hero-image {
+    height: 50vh;
+  }
+
+  .hero-content {
+    font-size: 18px;
+  }
+
+  /* Adjust grid styles */
+  .grid-view {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-item img {
+    height: 200px;
+  }
+    .footer-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .social {
+
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  .facebook .twitter .instagram {
+    width: 30px;
+    height: 20px;
+  }
+  .eventpix {
+    width: 40px;
+    height: 25px;
+  }
+  footer p {
+    font-size: 1em;
+    padding-top: 10px;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+ .nav-links {
+    display: none;
+  }
+
+  .nav-links.active {
+    display: block;
+  }
+
+
 
   .join-link {
     padding: 8px 16px;
@@ -264,10 +356,7 @@ footer p {
     padding: 1rem;
   }
 
-  .hamburger {
-    display: block;
-    cursor: pointer;
-  }
+  
 
   .nav-links ul {
     display: block;
@@ -305,15 +394,12 @@ footer p {
       }
 
       .facebook, .twitter, .instagram {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 20px;
       }
      
     
     
-      .both-container {
-        display: block;
-      }
 
 
       .footer-c {

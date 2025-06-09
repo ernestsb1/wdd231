@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chamber of Commerce Directory</title>
+        <meta name="description" content="index of Eventify">
+        <meta name="author" content="Ernest Ohwojeheri">
+        <meta property="og:description" content="Welcome to the Chamber of Commerce, where we support local businesses and community development">
+        <link rel="icon" href="images/favicon">
+        <meta property="og:title" content="Eventify  index">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://images.seeklogo.com/logo-png/2/1/british-airways-logo-png_seeklogo-22597.png">
+        <meta property="og:url" content="https://ernestsb1.github.io/wdd231/finalproject/index.html">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/join.css">
+        <script src="data/home.json" defer></script>
+        <script src="scripts/join.js" defer></script>
+        <link rel="icon" href="favicon" type="image/favicon">
+
+
+
+    </head>
+    <body>
+    
+        <header>
+        
+                  <img class="favicon" src="images/event-logo.png" width="90" height="50" alt="This is my local logo">
+
+    <h1>Eventify <br>Event Planning Solution</h1>
+
+    <div class="navbar">
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <nav class="nav-links">
+          <ul> 
+                        <li><a href="index.html" target="_blank">Home</a></li>
+                        <li><a href="join.html" target="_blank">Join</a></li>
+                        <li><a href="service.html" target="_blank">Our Services</a></li>
+
+        </ul>
+    </nav>
+    </div>
+    <div class="social">
+      
+            <img class="facebook" src="images/facebook.png" width="40" height="40" alt="this is facebook">
+            <img class="twitter" src="images/twitter.png" width="40" height="40" alt="this is twitter">
+            <img class="instagram" src="images/instagram.png" width="40" height="40" alt="this is instagram">
+          </div>
+</header> 
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main class="form-event">
+        <section class="join-form">
+          <h2>Join Our Event Form</h2>
+          <form method="get" action="thankyou.html">
+            <label for="first-name">
+              <span>First Name:</span><br>
+              <input type="text" id="first-name" name="first-name" required autocomplete="given-name" placeholder="Israel" title="First Name">
+            </label>
+    <br>
+    
+            <label for="last-name">
+              <span>Last Name:</span><br>
+              <input type="text" id="last-name" name="last-name" required autocomplete="family-name"placeholder="James" title="Last Name">
+            </label>
+            <br>
+            <label for="middle-name">
+              <span>Middle Name:</span><br>
+              <input type="text" id="middle-name" name="middle-name" required autocomplete="middle-name"placeholder="Other-name"  title="Middle Name">
+            </label>
+            <br>
+            <label for="org-title">
+              <span>Organizational Title:</span><br>
+              <input type="text" id="org-title" name="org-title" required pattern="^[a-zA-Z-\s]{7,}$" autocomplete="organization-title" title="Organizational Title">
+            </label>
+            <br>
+            
+            <label for="email">
+              <span>Email:</span><br>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="example@email.com" title="Email">
+            </label>
+            <br>
+            <br>
+            <label for="phone">
+              <span>Mobile Phone:</span><br>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="+234-8161-119-169" title="Mobile Phone">
+            </label>
+            <br>
+            
+            <label for="org-name">
+              <span>Organization Name:</span><br>
+              <input type="text" id="org-name" name="org-name" required autocomplete="organization" title="Organization Name">
+            </label>
+            <br>
+            <label for="membership-level"><br>
+              <span>Event Menu List:</span>
+            
+              <select id="events" name="events" required>
+                <option value="Specal">Types Of Event You Want</option>
+                <option value="Specal">Corporate Events</option>
+                <option value="Specal">Social Events</option>
+                <option value="Specal">Cultural Events</option>
+                <option value="Specal">Sports Events</option>
+                <option value="Specal">Educational Events</option>
+                <option value="Specal">Charity Events</option>                
+                <option value="Specal">Virtual Events:</option>
+                <option value="Specal">Expos and Trade Shows</option>
+                <option value="Specal">Community Events</option>
+                <option value="Specal">Others</option>
+
+              </select>
+            </label>
+    
+            <label for="org-description"><br>
+              <br>
+              <span>Organization Description:</span><br>
+              
+              <textarea id="org-description" name="org-description" title="Organization Description"></textarea>
+            </label>
+    
+            <input type="hidden" id="timestamp" name="timestamp" value="Date"><br>
+           
+            <button type="submit">Join Now</button>
+          </form>
+        </section>
+
+        <section class="event-cards">
+            <h2>Events type</h2>
+            <div class="card">
+            <h3>Event type: Corporate Events</h3>
+            <a href="#" class="modal-link">Learn More</a>
+           </div>
+            <div class="modal" id="corporate-events-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h3>Corporate Events</h3>
+          <ul>
+      <li>Conferences.</li>
+            <li>Seminars.</li>
+                  <li>Workshops.</li>
+                        <li>Product launches.</li> 
+                             <li>Team-building events.</li>
+                                   <li>Networking events.</li>
+
+    </ul>
+        </div>
+      </div>
+    
+          <div class="card">
+            <h3>Event type: Social Events</h3>
+            <a href="#" class="modal-link">Learn More</a>
+           </div>
+            <div class="modal" id="social-events-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h3>Social Events</h3>
+    
+     <ul>
+      <li>Weddings.</li>
+            <li>Birthday parties.</li>
+                  <li>Anniversaries.</li>
+                        <li>Graduations.</li> 
+                             <li>Holiday parties.</li>
+                                   <li>Reunions.</li>
+
+    </ul>
+        </div>
+      </div>
+    
+          <div class="card">
+            <h3>Event type: Cultural Events</h3>
+            <a href="#" class="modal-link">Learn More</a>
+          </div>
+           <div class="modal" id="cultural-events-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h3>Cultural Events</h3>
+           <ul>
+      <li> Festivals</li>
+            <li>Concerts</li>
+                  <li>Art exhibitions</li>
+                        <li>Theater performances</li> 
+                             <li>Dance recitals</li>
+                                   <li>Cultural celebrations</li>
+
+    </ul>
+        </div>
+      </div>
+ 
+          <div class="card">
+            <h3>Event type: Sports Events</h3>
+            <a href="#" class="modal-link">Learn More</a>
+          </div>
+          <div class="modal" id="sports-events-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h3>Sports Events</h3>
+           <ul>
+      <li> Marathons</li>
+            <li>Sporting tournaments</li>
+                  <li>Games (e.g., Olympics, World Cup)</li>
+                        <li>Charity runs/walks</li> 
+    </ul>
+        </div>
+      </div>
+
+<div class="card">
+            <h3>Event type: Educational Events</h3>
+            <a href="#" class="modal-link">Learn More</a>
+          </div>
+          <div class="modal" id="educational-events-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h3>Educational Events</h3>
+           <ul>
+      <li>Lectures</li>
+            <li>Workshops</li>
+                  <li>Conferences</li>
+                        <li>Training sessions</li> 
+                             <li>Webinars</li>
+
+    </ul>
+        </div>
+      </div>
+
+      <div class="card">
+            <h3>Event type: Charity Events</h3>
+            <a href="#" class="modal-link">Learn More</a>
+          </div>
+          <div class="modal" id="charity-events-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h3>Charity Events:</h3>
+           <ul>
+      <li>Fundraising galas</li>
+            <li>Auctions</li>
+                  <li>Charity runs/walks</li>
+                        <li>Benefit concerts</li> 
+    </ul>
+        </div>
+      </div>
+
+      <div class="card">
+            <h3>Event type: Virtual Events</h3>
+            <a href="#" class="modal-link">Learn More</a>
+          </div>
+          <div class="modal" id="virtual-events-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h3>Virtual Events</h3>
+    <ul>
+      <li>Webinars</li>
+            <li>Online conferences</li>
+                  <li>Social media events</li>
+                        <li>Virtual meetups</li> 
+
+    </ul>
+        </div>
+      </div>
+
+      <div class="card">
+            <h3>Event type: Expos and Trade Shows</h3>
+            <a href="#" class="modal-link">Learn More</a>
+          </div>
+          <div class="modal" id="exposandTradeshows-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h3>Expos and Trade Shows</h3>
+           <ul>
+      <li>Lectures</li>
+            <li>Industry-specific expos</li>
+                  <li>Product showcases</li>
+                        <li>Business-to-business (B2B) events</li> 
+
+    </ul>
+        </div>
+      </div>
+
+      <div class="card">
+            <h3>Event type: Community Events</h3>
+            <a href="#" class="modal-link">Learn More</a>
+          </div>
+          <div class="modal" id="community-events-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h3>Community Events</h3>
+           <ul>
+      <li>Block parties</li>
+            <li>Parades</li>
+                  <li>Street fairs</li>
+                        <li>Community festivals</li> 
+
+    </ul>
+        </div>
+      </div>
+
+
+          
+        </section>
+      </main>
+
+
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer-c">
+            <p>Ernest Ohwojeheri | WDD 231| All rights reserved &copy; <span id="footerCopyrightYear"></span></p>
+            <p>Last Modified: <span id="lastModifiedDate"></span></p>
+          </div>
+          <div class="social">
+            <img class="eventpix" src="images/eventpix.png" width="110" height="90" alt="this is facebook">
+            <img class="eventpix" src="images/eventpix.png" width="90" height="70" alt="this is twitter">
+            <img class="eventpix" src="images/eventpix.png" width="70" height="50" alt="this is instagram">
+          </div>
+          <div class="footer-messages">
+            <p>&copy; 2025 | Chamber of Commerce</p>
+            <p>Privacy Policy | Terms of Use</p>
+          </div>
+        </div>
+      </footer>

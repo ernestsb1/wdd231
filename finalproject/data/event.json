@@ -1,0 +1,141 @@
+
+
+
+[
+  {
+    "id": 1,
+    "title": "New Year's Eve Party",
+    "description": "Join us for a night of fun and celebration as we ring in the new year!",
+    "date": "June 31, 2025",
+    "time": "8:00 PM",
+    "location": "Downtown Event Space",
+    "image": "https://th.bing.com/th/id/OIP.fSz3zhMhE3dy6CnO2SCJaAHaE8?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 2,
+    "title": "Summer Music Festival",
+    "description": "Enjoy live music from some of the hottest acts in the industry!",
+    "date": "July 15, 2025",
+    "time": "12:00 PM",
+    "location": "Riverfront Park",
+    "image": "https://th.bing.com/th/id/OIP.aSZJK1mH9M3aw0Lmccv_lQHaE8?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 3,
+    "title": "Foodie Night",
+    "description": "Indulge in delicious cuisine from around the world!",
+    "date": "August 02, 2025",
+    "time": "6:00 PM",
+    "location": "Food Truck Park",
+    "image": "https://th.bing.com/th/id/OIP.StVB19GP9WhrviyrYZw4XAHaDz?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 4,
+    "title": "Art Exhibition",
+    "description": "Discover the latest works from local artists!",
+    "date": "August 22, 2025",
+    "time": "10:00 AM",
+    "location": "Art Gallery",
+    "image": "https://th.bing.com/th/id/OIP.FQoZGpVOhfD4Vvi4rd7xKgHaE8?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 5,
+    "title": "Charity Run",
+    "description": "Join us for a fun run to support a great cause!",
+    "date": "August 30, 2025",
+    "time": "7:00 AM",
+    "location": "City Park",
+    "image": "https://th.bing.com/th/id/OIP.CupTYCUIzN2tV4jrn4Uz9wHaEz?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 6,
+    "title": "Wine Tasting",
+    "description": "Sample some of the finest wines from around the world!",
+    "date": "September 04, 2025",
+    "time": "5:00 PM",
+    "location": "Wine Cellar",
+    "image": "https://th.bing.com/th/id/OIP.Us6kAX7SB2sbHUSbr1oo1QHaE8?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 7,
+    "title": "Comedy Night",
+    "description": "Laugh out loud with our lineup of comedians!",
+    "date": "September 18, 2025",
+    "time": "8:00 PM",
+    "location": "Comedy Club",
+    "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/comedy-night-design-template-02156ab7a3671edea9af256eec2f6f9a_screen.jpg?ts=1654705393"
+  },
+  {
+    "id": 8,
+    "title": "Book Signing",
+    "description": "Meet the author and get your book signed!",
+    "date": "September 28, 2025",
+    "time": "2:00 PM",
+    "location": "Bookstore",
+    "image": "https://th.bing.com/th/id/OIP.UNWJuXByetBm-H-LRz6dLwHaFn?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 9,
+    "title": "Yoga Class",
+    "description": "Find your inner peace with our yoga class!",
+    "date": "October 3, 2025",
+    "time": "9:00 AM",
+    "location": "Yoga Studio",
+    "image": "https://th.bing.com/th/id/OIP.ZPlp_cvV47t_1MhVjgj6PAHaE8?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 10,
+    "title": "Live Concert",
+    "description": "Enjoy live music from some of the hottest acts!",
+    "date": "October 23, 2025",
+    "time": "7:00 PM",
+    "location": "Music Venue",
+    "image": "https://th.bing.com/th/id/OIP.a57Z1wceK-Hc-pbjUA1c5gHaEl?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 11,
+    "title": "Theater Performance",
+    "description": "Watch a live theater performance!",
+    "date": "November 11, 2025",
+    "time": "8:00 PM",
+    "location": "Theater",
+    "image": "https://th.bing.com/th/id/OIP.eEFbBQPu8IUOzSqFpAHTSAHaE6?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 12,
+    "title": "Dance Party",
+    "description": "Get ready to dance the night away!",
+    "date": "November 22, 2025",
+    "time": "9:00 PM",
+    "location": "Nightclub",
+    "image": "https://www.shutterstock.com/image-photo/cheerful-girls-living-on-dance-600w-107906309.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Sports Game",
+    "description": "Cheer on!",
+    "date": "December 24, 2025",
+    "time": "9:00 PM",
+    "location": "national stadium",
+    "image": "https://www.sportphotogallery.com/content/images/cmsfiles/product/41176/42083-list.jpg"
+  },
+
+  {
+    "id": 14,
+    "title": "Our Event Aniversary",
+    "description": "Come, join us as we make 10 years Aniversary!",
+    "date": "December 28, 2025",
+    "time": "16:00 PM",
+    "location": "Office Autitorium Hall",
+    "image": "https://th.bing.com/th/id/OIP.PA7u8q96kemBJwJbElLzlAHaE7?rs=1&pid=ImgDetMain"
+  },
+{
+  "id": 15,
+    "title": "CEO Birth Party",
+    "description": "Enjoy with Eventify CEO!",
+    "date": "January 20, 2026",
+    "time": "6:00 PM",
+    "location": "Machester Resident Villa",
+    "image": "https://dreamacake.com/wp-content/uploads/2023/07/Executive-Temptations-CEOs-Birthday-Cake-in-Lahore-II.webp"
+  }
+]

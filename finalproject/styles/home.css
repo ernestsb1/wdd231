@@ -260,12 +260,12 @@ header {
   }
   /* Adjust navbar styles */
   .navbar {
-    flex-direction: column;
+    display: flex;
     padding: 0.5rem;
   }
 
   .nav-links ul {
-    flex-direction: column;
+    display: flex;
   }
 
    .nav-links li {
@@ -362,7 +362,9 @@ header {
     display: block;
   }
 
-
+.four-view {
+  display: block;
+}
  
     h1 {
         font-size: 22px;
@@ -372,6 +374,7 @@ header {
     
 .grid-view {
     display: block;
+    padding: 10px;
 }
 
 

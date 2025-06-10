@@ -298,14 +298,14 @@ footer p {
        
       .join-form {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
   }
        .join-form input {
          width: 100%;
           }
   .event-cards {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
   }
 
        #org-description {
@@ -315,7 +315,9 @@ width: 100%;
     margin-bottom: 20px;
   }
 
-
+.card {
+    width: 100%;
+}
   
 .card h3 {
     font-size: 20px;

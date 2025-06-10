@@ -6,7 +6,7 @@
 
 body {
     background-color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -201,7 +201,10 @@ footer p {
     color: white;
     padding-top: 20px;
 }
+.footer-messages {
+      font-size: 1.30em;
 
+}
 #lastModified {
     font-size: 1rem;
     text-align: center;

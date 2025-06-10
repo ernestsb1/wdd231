@@ -5,7 +5,7 @@
 }
 body {
     background-color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -71,6 +71,23 @@ nav a:hover {
     list-style: none;
     font-size: 1.2rem;
 }
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  font-size: 30px;
+}
+
+
 
 .hero {
   position: relative;
@@ -221,6 +238,10 @@ footer p {
     font-size: 1.30em;
     color: white;
     padding-top: 20px;
+}
+.footer-messages {
+      font-size: 1.30em;
+
 }
 
 #lastModified {

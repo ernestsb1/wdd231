@@ -1,13 +1,20 @@
-function scrollGallery(direction) {
-  const gallery = document.querySelector('.card-gallery');
-  const scrollAmount = 300; // Adjust based on your card width
-  
-  if (direction === 'prev') {
-    gallery.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-  } else if (direction === 'next') {
-    gallery.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-  }
-}
+const galleryContainer = document.querySelector('.gallery-container');
+const cardGallery = document.querySelector('.card-gallery');
+const prevButton = document.querySelector('.prev-button');
+const nextButton = document.querySelector('.next-button');
+
+// Get the card width
+const cardWidth = cardGallery.querySelector('.card').offsetWidth;
+
+// Add event listeners to the buttons
+prevButton.addEventListener('click', () => {
+  cardGallery.scrollLeft -= cardWidth;
+});
+
+nextButton.addEventListener('click', () => {
+  cardGallery.scrollLeft += cardWidth;
+});
+
 
 
 

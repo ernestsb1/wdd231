@@ -209,14 +209,6 @@ footer p {
  
 
 
-
-
-
-
-
-
-
-
 @media (max-width: 768px) {
 
 
@@ -245,9 +237,10 @@ footer p {
     display: block;
   }
 
- footer p {
-      font-size: 24px;
-    }
+    footer p {
+    font-size: 1em;
+    padding-top: 10px;
+  }
       .footer-container {
         display: flex;
         width: 100%;
@@ -256,9 +249,9 @@ footer p {
           font-size: 1rem;
       }
 
-      .facebook, .twitter, .instagram {
-        width: 40px;
-        height: 40px;
+     .facebook, .twitter, .instagram {
+        width: 30px;
+        height: 20px;
       }
      
     
@@ -266,26 +259,24 @@ footer p {
       .form-event {
         display: block;
       }
+       
+      .join-form {
+    width: 100%;
+    padding: 20px;
+  }
+       .join-form input {
+         width: 100%;
+          }
+  .event-cards {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
 
 
-      .footer-c {
-        padding-left: 10px;
-      }
-      
-    .footer-messages {
-        padding-right: 10px;
-    }
-    
-    .social {
-        margin-top: 10px;
-        padding: 10px;
-    }
-    
-    footer p {
-        font-size: 1.10em;
-        color: white;
-        padding-top: 10px;
-    }
   
 .card h3 {
     font-size: 20px;

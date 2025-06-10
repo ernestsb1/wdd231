@@ -1,3 +1,16 @@
+function scrollGallery(direction) {
+  const gallery = document.querySelector('.card-gallery');
+  const scrollAmount = 300; // Adjust based on your card width
+  
+  if (direction === 'prev') {
+    gallery.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  } else if (direction === 'next') {
+    gallery.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  }
+}
+
+
+
 
 fetch('data/event.json')
   .then(response => response.json())

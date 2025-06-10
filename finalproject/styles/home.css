@@ -255,29 +255,34 @@ header {
   }
 
   .favicon {
-    width: 50px;
+    width: 40px;
     height: 30px;
   }
-  /* Adjust navbar styles */
+   .nav-links {
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        padding: 20px;
+      }
+    
+    
+
   .navbar {
-    display: flex;
-    padding: 0.5rem;
+    display: block;
+    padding: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
   }
 
   .nav-links ul {
-    display: flex;
+    display: block;
   }
 
-   .nav-links li {
-    margin-bottom: 10px;
-  }
-
-  .nav-links a {
-    font-size: 1rem;
-    padding: 0.5rem;
-  }
-
-  /* Adjust hero styles */
   .hero-image {
     height: 50vh;
   }
@@ -286,7 +291,6 @@ header {
     font-size: 18px;
   }
 
-  /* Adjust grid styles */
   .grid-view {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -318,20 +322,6 @@ header {
     padding-top: 10px;
   }
 
-  .hamburger {
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-
- .nav-links {
-    display: none;
-  }
-
-  .nav-links.active {
-    display: block;
-  }
 
 
 
@@ -340,30 +330,11 @@ header {
     font-size: 14px;
   }
 
-      .nav-links {
-        display: none;
-        position: absolute;
-        left: 0;
-        background-color: #333;
-        width: 100%;
-        padding: 20px;
-      }
-    
-    
-
-  .navbar {
-    display: block;
-    padding: 1rem;
-  }
-
-  
-
-  .nav-links ul {
-    display: block;
-  }
-
+     
 .four-view {
   display: block;
+  gap: 15px;
+
 }
  
     h1 {
@@ -374,6 +345,7 @@ header {
     
 .grid-view {
     display: block;
+    gap: 10px;
     padding: 10px;
 }
 
@@ -386,7 +358,7 @@ header {
       
       
     footer p {
-      font-size: 24px;
+      font-size: 18px;
     }
       .footer-container {
         display: flex;
@@ -405,24 +377,7 @@ header {
     
 
 
-      .footer-c {
-        padding-left: 10px;
-      }
-      
-    .footer-messages {
-        padding-right: 10px;
-    }
-    
-    .social {
-        margin-top: 10px;
-        padding: 10px;
-    }
-    
-    footer p {
-        font-size: 1.10em;
-        color: white;
-        padding-top: 10px;
-    }
+     
   
 .card h3 {
     font-size: 20px;

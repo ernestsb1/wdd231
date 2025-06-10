@@ -210,10 +210,6 @@ footer p {
 @media (max-width: 768px) {
 
 
-  header {
-    display: flex;
-    padding: 10px;
-  }
 
   header h1 {
     font-size: 16px;
@@ -269,40 +265,33 @@ footer p {
       font-size: 1.4em;
     }  
       
-      
-    footer p {
+     .footer-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .social {
+
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  .facebook .twitter .instagram {
+    width: 30px;
+    height: 20px;
+  }
+  .eventpix {
+    width: 40px;
+    height: 25px;
+  }
+  footer p {
     font-size: 1em;
     padding-top: 10px;
   }
-      .footer-container {
-        display: flex;
-        width: 100%;
-      }
-      #lastModified {
-          font-size: 1rem;
-      }
-
-     
+  
     
-    .facebook, .twitter, .instagram {
-        width: 30px;
-        height: 20px;
-      }
-      
-    .footer-messages {
-        padding-right: 10px;
-    }
     
-    .social {
-        margin-top: 10px;
-        padding: 10px;
-    }
-    
-    footer p {
-        font-size: 1.10em;
-        color: white;
-        padding-top: 10px;
-    }
+   
   
 .card h3 {
     font-size: 20px;

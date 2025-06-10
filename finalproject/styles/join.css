@@ -237,22 +237,30 @@ footer p {
     display: block;
   }
 
-    footer p {
+    .footer-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .social {
+
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  .facebook .twitter .instagram {
+    width: 30px;
+    height: 20px;
+  }
+  .eventpix {
+    width: 40px;
+    height: 25px;
+  }
+  footer p {
     font-size: 1em;
     padding-top: 10px;
   }
-      .footer-container {
-        display: flex;
-        width: 100%;
-      }
-      #lastModified {
-          font-size: 1rem;
-      }
 
-     .facebook, .twitter, .instagram {
-        width: 30px;
-        height: 20px;
-      }
      
     
     
@@ -272,6 +280,9 @@ footer p {
     padding: 20px;
   }
 
+       #org-description {
+width: 100%;
+}
   .card {
     margin-bottom: 20px;
   }

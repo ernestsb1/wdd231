@@ -244,13 +244,8 @@ footer p {
   }
 
 
-header {
-    flex-direction: column;
-    padding: 10px;
-  }
-
   header h1 {
-    font-size: 16px;
+    font-size: 14px;
     padding-bottom: 5px;
   }
 
@@ -333,15 +328,12 @@ header {
      
 .four-view {
   display: block;
-  gap: 15px;
+  margin: 20px;
+  padding: 10px;
 
 }
  
-    h1 {
-        font-size: 22px;
 
-    
-  }
     
 .grid-view {
     display: block;
@@ -356,28 +348,7 @@ header {
       font-size: 1.4em;
     }  
       
-      
-    footer p {
-      font-size: 18px;
-    }
-      .footer-container {
-        display: flex;
-        width: 100%;
-      }
-      #lastModified {
-          font-size: 1rem;
-      }
-
-      .facebook, .twitter, .instagram {
-        width: 30px;
-        height: 20px;
-      }
-     
-    
-    
-
-
-     
+   
   
 .card h3 {
     font-size: 20px;

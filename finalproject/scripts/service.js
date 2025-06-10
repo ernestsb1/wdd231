@@ -43,14 +43,14 @@ fetch('data/event.json')
 
 
 
-
 const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
 
-function toggleMenu() {
-  console.log('Menu toggled!');
-}
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
 
-hamburger.addEventListener('click', toggleMenu);
+
 
 
 

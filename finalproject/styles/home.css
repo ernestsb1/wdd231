@@ -24,7 +24,7 @@ header {
 
 
   
-  header h1 {
+  header h3 {
     color:#fff ;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
@@ -265,7 +265,7 @@ footer p {
   }
 
 
-  header h1 {
+  header h3 {
     font-size: 14px;
     padding-bottom: 5px;
   }
@@ -284,30 +284,34 @@ footer p {
     height: 30px;
     margin: 10px;
   }
-   .nav-links {
-        display: none;
-        position: absolute;
-        left: 0;
-        background-color: #333;
-        width: 100%;
-        padding: 20px;
-      }
-    
-    
-
-  .navbar {
-    display: block;
-    padding: 1rem;
-  }
+   
 
   .hamburger {
     display: block;
-    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 20px;
+  }
+
+  .nav-links.active {
+    display: block;
   }
 
   .nav-links ul {
-    display: block;
+    flex-direction: column;
   }
+
+  .nav-links li {
+    margin-bottom: 20px;
+  }
+
 
   .hero-image {
     height: 50vh;

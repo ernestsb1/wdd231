@@ -74,11 +74,16 @@ const content = [
 
 
 
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
 
 
-function toggleMenu() {
-  document.querySelector('.nav-links').classList.toggle('show-menu');
-}
+
+
 
 const footerCopyrightYear = document.getElementById('footerCopyrightYear');
 const lastModifiedDate = document.getElementById('lastModifiedDate');

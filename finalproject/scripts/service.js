@@ -43,9 +43,16 @@ fetch('data/event.json')
 
 
 
+
+const hamburger = document.querySelector('.hamburger');
+
 function toggleMenu() {
-  document.querySelector('.nav-links').classList.toggle('show-menu');
+  console.log('Menu toggled!');
 }
+
+hamburger.addEventListener('click', toggleMenu);
+
+
 
 const footerCopyrightYear = document.getElementById('footerCopyrightYear');
 const lastModifiedDate = document.getElementById('lastModifiedDate');

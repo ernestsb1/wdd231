@@ -34,7 +34,9 @@ header {
     padding-bottom: 10px
   }
 
- 
+ .h {
+  text-align: center;
+ }
 nav a:hover {
   background-color: #fff;
   color: #333;
@@ -104,7 +106,23 @@ nav a:hover {
   right: 0;
 }
 
+h2{
+    font-family: cursive;
+    font-size: 23px;
+    text-align: center;
+    margin: 10px;
+    color: #3498db;
+}
 
+.he {
+  text-align: center;
+  font-family: cursive;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    color: #3498db;
+
+ }
 
 .card {
   min-width: 350px; /* Adjust the width as needed */
@@ -165,6 +183,98 @@ nav a:hover {
 }
 
  
+
+.form-event {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-left: 25px;
+  background-color: #ffffff;
+}
+
+.form-data p{
+    padding: 10px;
+}
+#org-description {
+width: 600px;
+height: 100px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    align-items: center;
+    background-color: #3498db;
+}
+#events{
+    font-size: 16px;
+}
+
+
+.modal{
+display: none;
+} 
+
+
+.modal {
+  color: #00698f;
+  font-size: 16px;
+}
+
+
+
+.join-form {
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+
+
+.join-form input {
+  padding: 0px;
+  width: 600px;
+  height: 30px;
+  margin: 10px;
+}
+h3 {
+    font-size: 18px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(80.33% - 20px);
+}
+
+.card {
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+.card h3 {
+  margin-top: 0;
+}
+
+.card a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.card a:hover {
+  color: #36454f;
+}
+
+.thank-you {
+    background-color: #C0C0C0;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+
 
 
 
@@ -320,6 +430,49 @@ footer p {
     font-size:16px;
 
 }
+
+
+
+ .form-event {
+        display: block;
+      }
+       
+      .join-form {
+    width: 100%;
+    padding: 10px;
+  }
+       .join-form input {
+         width: 100%;
+          }
+  .event-cards {
+    width: 100%;
+    padding: 10px;
+  }
+
+       #org-description {
+width: 100%;
+}
+  .card {
+    margin-bottom: 20px;
+  }
+
+.card {
+    width: 100%;
+}
+  
+.card h3 {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size:16px;
+
+}
+
+
+
+
+
 }
   
  .show-menu {

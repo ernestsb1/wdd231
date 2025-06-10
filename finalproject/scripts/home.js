@@ -1,3 +1,39 @@
+// Add click event listeners to the modal links
+const modalLinks = document.querySelectorAll('.modal-link');
+modalLinks.forEach((link, index) => {
+  link.addEventListener('click', () => {
+    const modal = document.getElementById(`${['corporate-events', 'social-events', 'cultural-events', 'sports-events', 'educational-events','charity-events', 'virtual-events', 'exposandTradeshows','community-events',][index]}-modal`);
+    modal.style.display = 'block';
+  });
+});
+
+// Add click event listener to the close buttons
+const closeBtns = document.querySelectorAll('.close-button');
+closeBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const modal = btn.closest('.modal');
+    modal.style.display = 'none';
+  });
+});
+
+// Add animation/transition to the membership cards
+const cards = document.querySelectorAll('.card');
+cards.forEach(card => {
+  card.style.opacity = 0;
+  card.style.transform = 'translateY(50px)';
+  setTimeout(() => {
+    card.style.opacity = 1;
+    card.style.transform = 'translateY(0)';
+  }, 300);
+});
+
+
+
+
+
+
+
+
 const gridView = document.querySelector('.four-view');
 
 const content = [
@@ -35,6 +71,10 @@ const content = [
 
   gridView.appendChild(card);
 });
+
+
+
+
 
 function toggleMenu() {
   document.querySelector('.nav-links').classList.toggle('show-menu');

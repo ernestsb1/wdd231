@@ -212,8 +212,10 @@ footer p {
 @media (max-width: 768px) {
 
     header {
-        display: flex;
-        height: 150px;
+        flex-direction: column;
+    padding: 10px;
+
+      
     }
      ul li {
     font-size: 14px;

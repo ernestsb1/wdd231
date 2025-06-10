@@ -249,8 +249,9 @@ footer p {
     padding-bottom: 5px;
   }
    header {
-    display: flex;
-        height: 150px;
+    flex-direction: column;
+    padding: 10px;
+
     }
      ul li {
     font-size: 14px;

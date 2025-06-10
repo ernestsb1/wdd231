@@ -213,14 +213,22 @@ footer p {
 
     header {
         display: flex;
-        height: 300px;
+        height: 150px;
     }
      ul li {
     font-size: 14px;
+        margin: 5px;
+
   }
 
   header h1{
     font-size: 14px;
+  }
+
+  .favicon {
+    width: 40px;
+    height: 30px;
+    margin: 10px;
   }
 
 
@@ -249,7 +257,10 @@ footer p {
     display: block;
   }
 
-
+.footer-c{
+      text-align: center;
+}
+    
 
 
     .footer-container {
@@ -258,7 +269,7 @@ footer p {
   }
 
   .social {
-
+    display: block;
     margin-top: 5px;
     padding: 10px;
   }

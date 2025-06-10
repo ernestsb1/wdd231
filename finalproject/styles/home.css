@@ -248,6 +248,13 @@ footer p {
     font-size: 14px;
     padding-bottom: 5px;
   }
+   header {
+    display: flex;
+        height: 300px;
+    }
+     ul li {
+    font-size: 14px;
+  }
 
   .favicon {
     width: 40px;

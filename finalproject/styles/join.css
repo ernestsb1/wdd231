@@ -211,6 +211,18 @@ footer p {
 
 @media (max-width: 768px) {
 
+    header {
+        display: flex;
+        height: 300px;
+    }
+     ul li {
+    font-size: 14px;
+  }
+
+  header h1{
+    font-size: 14px;
+  }
+
 
   .nav-links {
         display: none;
@@ -236,6 +248,9 @@ footer p {
   .nav-links ul {
     display: block;
   }
+
+
+
 
     .footer-container {
     flex-direction: column;

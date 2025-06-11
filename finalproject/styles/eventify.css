@@ -351,7 +351,7 @@ footer p {
     font-size: 18px;
   }
 
-  .grid-section {
+  .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
 

@@ -353,8 +353,9 @@ hi{
     font-size: 18px;
   }
 
-  .grid-section {
-    display: block;
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .grid-view {

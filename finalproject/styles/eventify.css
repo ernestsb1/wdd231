@@ -294,7 +294,9 @@ footer p {
     font-size: 16px;
   }
 
-
+hi{
+  font-size: 16px;
+}
   header h3 {
     font-size: 14px;
     padding-bottom: 5px;
@@ -351,9 +353,8 @@ footer p {
     font-size: 18px;
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .grid-section {
+    display: block;
   }
 
   .grid-view {

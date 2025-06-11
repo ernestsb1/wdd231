@@ -1,125 +1,392 @@
+
+
+
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-
-
-
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #f9f9f9;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
-h1, h2 {
-  color: #2C3E50;
-}
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 36px;
-  padding-bottom: 10px;
-}
-
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-img {
-  width: 100%;
-  height: auto;
-  margin: 20px 0;
-}
-
-
-
-.site-plan {
-           padding-left: 20px;
-           padding: 20px;
-           font-size: 22px;
-
-}
-
 
 
 header {
-    color: #3498db;
-    padding-bottom: 10px;
-}
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #36454f;
+
+
+  }
 
 
 
-.event {
-    font-size: 22px;
-    text-align: center;
-}
+  
+  header h3 {
+    color:#fff ;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 0px;
+    padding-bottom: 10px
+  }
 
-.site {
-    
-        color: #2F4F7F;
+ 
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}  
 
-}
-
-h2{
-    font-size: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
-
-.css {
-    text-align: center;
-    font-size: 21px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    background-color: #36454f;
-    color: #f9f9f9;
-}
-.eventpix {
+  .navbar {
   display: flex;
-  height: auto;
-  gap: 20px;
+  justify-content: center;
+    gap: 20px;
+    padding: 1.2rem;
+    color: #fff;
+}
+
+.hamburger {
+  display: none;
+    cursor: pointer;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.nav-links a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  font-size: 30px;
+}
+
+
+
+.hero {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+    font-size: 22px;
+}
+.join-link {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+cursor: pointer;
+  text-decoration: none;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
+ }
+
+.grid-section {
   padding: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  .wireframe img {
-    width: 100%;
-    height: auto;
-    margin: 10px 0;
-  }
-  .event {
-    font-size: 18px;
-  }
-  .css {
-    font-size: 16px;
-  }
-  img {
-  width: 100%;
-  height: auto;
-  margin: 20px 0;
-}
-.eventpix {
-  display: block;
-   width: 100%;
-  height: auto;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+
+.grid-card {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-card h2 {
+  margin-top: 0;
+}
+
+
+
+ .grid-view {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  
+}
+.grid-view{
+ border-radius: 10px;
+  border: #4CAF50;
+}
+.grid-item {
+     padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid ;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item :hover {
+  transform: scale(1.05);
+}
+.grid-item img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+
+}
+ 
+ .grid-view p{
+    font-size: 20px;
+ } 
+  ul li {
+    font-size: 20px;
+ } 
+  
+.four-view {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid darkcyan;
+  align-items: center;
+  justify-items: center;
+  background-color: #f7f7f7;
+
+}
+.four-view {
+  animation: fadeIn 10s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+.four-item h3 {
+  margin-top: 0;
+}
+
+.card h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 18px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #36454f;
+
+  }
+  
+  
+
+
+.facebook, .twitter, .instagram {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+
+.social {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1.30em;
+    color: white;
+    padding-top: 20px;
+}
+.footer-messages {
+      font-size: 1.30em;
+
+}
+
+#lastModified {
+    font-size: 1rem;
+    text-align: center;
+}
+ 
+  
+    
+@media (max-width: 768px) {
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+
+  header h3 {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+   header {
+    flex-direction: column;
+    padding: 10px;
+
+    }
+     ul li {
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  .favicon {
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+  }
+   
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 20px;
+  }
+
+  .nav-links.active {
+    display: block;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    margin-bottom: 20px;
+  }
+
+
+  .hero-image {
+    height: 50vh;
+  }
+
+  .hero-content {
+    font-size: 18px;
+  }
+
+  .grid-view {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-item img {
+    height: 200px;
+  }
+    .footer-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .social {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  .facebook .twitter .instagram {
+    width: 30px;
+    height: 20px;
+  }
+  .eventpix {
+    width: 40px;
+    height: 25px;
+  }
+  footer p {
+    font-size: 1em;
+    padding-top: 10px;
+  }
+
+
+
+
+}
+  
+ .show-menu {
+  display: block;
 }

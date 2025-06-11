@@ -296,11 +296,10 @@ footer p {
 
 .hero h1 {
     font-size: 16px;
+    margin-top: -20px;
   }
 .hero h1 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
+
 }
   header h3 {
     font-size: 14px;

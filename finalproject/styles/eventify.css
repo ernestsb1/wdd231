@@ -85,7 +85,7 @@ nav a:hover {
 
 .hero h1 {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -296,11 +296,8 @@ footer p {
 
 .hero h1 {
     font-size: 16px;
-    margin-top: -20px;
   }
-.hero h1 {
 
-}
   header h3 {
     font-size: 14px;
     padding-bottom: 5px;

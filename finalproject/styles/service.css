@@ -219,14 +219,14 @@ display: none;
 
 
 .modal {
-  color: #3498db;
+  color: #A52A2A;
   font-size: 16px;
 }
 
 
 
 .join-form {
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 10px;
 }
 
@@ -236,7 +236,7 @@ display: none;
   padding: 0px;
   width: 600px;
   height: 30px;
-  margin: 10px;
+  margin: 5px;
 }
 h3 {
     font-size: 18px;

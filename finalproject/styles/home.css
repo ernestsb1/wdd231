@@ -112,7 +112,7 @@ nav a:hover {
     font-size: 22px;
 }
 .join-link {
-  background-color: #007bff;
+  background-color: #0000FF;
   color: #fff;
   padding: 5px 10px;
   border: none;
@@ -125,7 +125,7 @@ h2 {
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color: #3498db;
+    color: #0000FF;
     padding: 10px;
  }
 
@@ -142,7 +142,7 @@ h2 {
 }
 .grid-item {
      padding: 20px;
-  background-color: #f7f7f7;
+  background-color: #FFFFFF;
   border: 1px solid ;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -400,10 +400,15 @@ footer p {
     padding: 10px;
 } 
 
+
 .hero h1 {
-  font-size: 14px;
-  margin-bottom: 30px;
-  
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  font-size: 16px;
 }
 
 

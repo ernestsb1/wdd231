@@ -7,7 +7,6 @@ modalLinks.forEach((link, index) => {
   });
 });
 
-// Add click event listener to the close buttons
 const closeBtns = document.querySelectorAll('.close-button');
 closeBtns.forEach(btn => {
   btn.addEventListener('click', () => {
@@ -16,7 +15,6 @@ closeBtns.forEach(btn => {
   });
 });
 
-// Add animation/transition to the membership cards
 const cards = document.querySelectorAll('.card');
 cards.forEach(card => {
   card.style.opacity = 0;

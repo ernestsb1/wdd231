@@ -122,9 +122,11 @@ cursor: pointer;
 }
 
 h2 {
-    font-size: 28px;
-    font-family: cursive;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    color: #3498db;
+    padding: 10px;
  }
 
  .grid-view {
@@ -176,6 +178,13 @@ h2 {
   justify-items: center;
   background-color: #f7f7f7;
 
+}
+text{
+background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .four-view {
   animation: fadeIn 10s;
@@ -348,7 +357,7 @@ footer p {
     height: 25px;
   }
   footer p {
-    font-size: 1em;
+    font-size: 15px;
     padding-top: 10px;
   }
 
@@ -360,9 +369,9 @@ footer p {
     font-size: 14px;
   }
 
-     
-.four-view {
-  display: block;
+  .four-view {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   margin: 20px;
   padding: 10px;
   gap: 20px;
@@ -389,6 +398,12 @@ footer p {
     display: block;
     gap: 10px;
     padding: 10px;
+} 
+
+h1 {
+  font-size: 14px;
+  margin-bottom: 30px;
+  
 }
 
 

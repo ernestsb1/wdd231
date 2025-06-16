@@ -38,12 +38,12 @@ const gridView = document.querySelector('.four-view');
 
 const content = [
   {
-    title: 'Turn Your Vision Into Reality',
-    text: 'Dreaming of a fairytale wedding? Our dedicated team of coordinators will work closely with you to bring your vision to life. With meticulous planning and attention to detail, we ensure that every aspect of your wedding reflects your unique style and personality. Trust us to make your dream wedding a reality.',
+    title: 'Introduction',
+    text: 'Event planning can be a daunting task, requiring meticulous attention to detail, creativity, and exceptional organizational skills. Thats where Eventify comes in a comprehensive event planning solution designed to make your events unforgettable.',
   },
   {
-    title: 'Let Us Make Your Event Unforgettable',
-    text: 'Our expert event management team is dedicated to creating a unique and memorable experience for you and your guests. From planning and coordination to execution, we handle every detail with precision and creativity. Choose us to turn your event into a stress-free success!',
+    title: 'Site Purpose',
+    text: 'The site provides a comprehensive event planning solution, offering a user-friendly interface for creating and managing event details, including dates, times, locations, and guest lists.',
   },
   {
     title: 'Your Ultimate Destination Partner',

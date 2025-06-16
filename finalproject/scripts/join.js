@@ -25,6 +25,14 @@ cards.forEach(card => {
   }, 300);
 });
 
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+
+
 
 const footerCopyrightYear = document.getElementById('footerCopyrightYear');
 const lastModifiedDate = document.getElementById('lastModifiedDate');

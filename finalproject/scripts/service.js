@@ -1,3 +1,4 @@
+
 const galleryContainer = document.querySelector('.gallery-container');
 const cardGallery = document.querySelector('.card-gallery');
 const prevButton = document.querySelector('.prev-button');
@@ -39,7 +40,49 @@ fetch('data/event.json')
       document.getElementById('events').innerHTML += eventHTML;
     });
   })
-  .catch(error => console.error('Error:', error));
+  .catch(error => console.error('Error:', error));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

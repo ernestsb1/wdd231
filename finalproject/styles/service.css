@@ -223,7 +223,7 @@ display: none;
 }
 
 .modal-link {
-  color: #337ab7; 
+  color: #3498db; 
 }
 
 .modal-link:hover {
@@ -252,7 +252,7 @@ h3 {
 .card {
   background-color: #f7f7f7;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #FFFFFF;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: calc(80.33% - 20px);
@@ -268,7 +268,7 @@ h3 {
 
 .card a {
   text-decoration: none;
-  color: #337ab7;
+  color: #3498db;
 }
 
 .card a:hover {

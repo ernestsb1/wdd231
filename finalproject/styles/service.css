@@ -223,11 +223,11 @@ display: none;
 }
 
 .modal-link {
-  color: #3498db; 
+  color: #1F1FFF; 
 }
 
 .modal-link:hover {
-  color: #23527c; 
+  color: #7B1DD3; 
 }
 
 
@@ -268,11 +268,11 @@ h3 {
 
 .card a {
   text-decoration: none;
-  color: #3498db;
+  color:  #1F1FFF;
 }
 
 .card a:hover {
-  color: #36454f;
+  color: #7B1DD3;
 }
 
 .thank-you {

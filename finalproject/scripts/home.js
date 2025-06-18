@@ -59,9 +59,9 @@ const content = [
   const card = document.createElement('div');
   card.classList.add('card');
 
-  const h3 = document.createElement('h3');
-  h3.textContent = item.title;
-  card.appendChild(h3);
+  const h4 = document.createElement('h4');
+  h4.textContent = item.title;
+  card.appendChild(h4);
 
   const p = document.createElement('p');
   p.textContent = item.text;

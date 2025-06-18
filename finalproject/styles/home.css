@@ -4,7 +4,6 @@
   padding: 0;
 }
 body {
-    background-color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -180,11 +179,13 @@ h2 {
 
 }
 .four-view p {
-  color: #FFFFFF;
+  color: #555555;
+  background-color: #ffffff;
 }
 
-.four-view, h3 {
-  color:  #FFFFFF;
+.four-view, h4 {
+  color:  #333333;
+  background-color: #f5f5f5;
 }
 text{
 background-color: #FFFFFF;

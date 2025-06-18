@@ -222,6 +222,14 @@ display: none;
   font-size: 16px;
 }
 
+.modal-link {
+  color: #337ab7; 
+}
+
+.modal-link:hover {
+  color: #23527c; 
+}
+
 
 
 .join-form {

@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -173,14 +173,14 @@ h2 {
   max-width: 1400px;
   margin: 20px auto;
   padding: 20px;
-  border: 1px solid darkcyan;
+  border: 1px solid #F7F7F7;
   align-items: center;
   justify-items: center;
-  background-color: #f7f7f7;
+  background-color: #FFFFFF;
 
 }
 text{
-background-color: #f7f7f7;
+background-color: #FFFFFF;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 10px;

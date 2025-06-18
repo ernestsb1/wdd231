@@ -353,8 +353,9 @@ footer p {
 
   .favicon {
     margin: 10px;
-    width: 50px;
-    height: 35px;
+    width: 40px;
+    aspect-ratio: 800/500;
+
   }
 
 
@@ -422,8 +423,9 @@ footer p {
     height: auto;
   }
   .eventpix {
-    width: 30px;
-    height: 18px;
+    width: 100px;
+  aspect-ratio: 1039 / 833;
+
   }
   footer p {
     font-size: 15px;

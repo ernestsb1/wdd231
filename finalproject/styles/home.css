@@ -173,11 +173,18 @@ h2 {
   max-width: 1400px;
   margin: 20px auto;
   padding: 20px;
-  color:  #F7F7F7;
+  border: 1px solid #F7F7F7;
   align-items: center;
   justify-items: center;
   background-color: #005152;
 
+}
+.four-view p {
+  color: #FFFFFF;
+}
+
+.four-view, h2 {
+  color:  #FFFFFF;
 }
 text{
 background-color: #FFFFFF;

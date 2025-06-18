@@ -423,9 +423,8 @@ footer p {
     height: auto;
   }
   .eventpix {
-    width: 100px;
-  aspect-ratio: 1039 / 833;
-
+    width: 50px;
+    height: auto;
   }
   footer p {
     font-size: 15px;

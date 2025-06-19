@@ -19,13 +19,10 @@ nextButton.addEventListener('click', () => {
 
 
 
-
 fetch('data/event.json')
   .then(response => response.json())
   .then(data => {
-    // Loop through each item in the data array
     data.forEach(item => {
-      // Create a new HTML element for each item
       const eventHTML = `
         <div class="event">
           <h2>${item.title}</h2>
@@ -36,11 +33,17 @@ fetch('data/event.json')
           <img src="${item.image}" alt="${item.title}">
         </div>
       `;
-      // Append the HTML element to the webpage
       document.getElementById('events').innerHTML += eventHTML;
     });
   })
-  .catch(error => console.error('Error:', error));
+  .catch(error => console.error('Error:', error));
+
+
+
+
+
+  
+
 
 
 
